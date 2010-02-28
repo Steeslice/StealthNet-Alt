@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;autoMoveCheckBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;SubFolderForCollectionsCheckBox.Name" xml:space="preserve">
+    <value>SubFolderForCollectionsCheckBox</value>
+  </data>
+  <data name="&gt;&gt;autoMoveNumericUpDown.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="oneRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="showMessageBoxesCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 19</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="sevenRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="miscOptionsGroupBox.Text" xml:space="preserve">
+    <value>Misc Options</value>
+  </data>
+  <data name="&gt;&gt;eigthRadioButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="progressBarsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>634, 44</value>
+  </data>
+  <data name="SubFolderForCollectionsCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fiveRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="&gt;&gt;oneRadioButton.Parent" xml:space="preserve">
+    <value>averageConnectionsCountGroupBox</value>
+  </data>
+  <data name="sixRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 19</value>
+  </data>
+  <data name="progressBarsHaveShadowCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 20</value>
+  </data>
+  <data name="&gt;&gt;autoMoveNumericUpDown.Parent" xml:space="preserve">
+    <value>miscOptionsGroupBox</value>
+  </data>
+  <data name="enableUploadLimitCheckBox.Text" xml:space="preserve">
+    <value>Enable Upload Limit</value>
+  </data>
+  <data name="&gt;&gt;enableDownloadLimitCheckBox.Parent" xml:space="preserve">
+    <value>downloadLimitGroupBox</value>
+  </data>
+  <data name="&gt;&gt;useBytesInsteadOfBitsCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;portGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="nineRadioButton.Text" xml:space="preserve">
+    <value>9 - 11</value>
+  </data>
+  <data name="&gt;&gt;autoMoveNumericUpDown.Name" xml:space="preserve">
+    <value>autoMoveNumericUpDown</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NewDownloadsToBeginngingOfQueueCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="uploadLimitGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;miscOptionsGroupBox.Name" xml:space="preserve">
+    <value>miscOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;autoMoveLabel.Parent" xml:space="preserve">
+    <value>miscOptionsGroupBox</value>
+  </data>
+  <data name="enableDownloadLimitCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="fourRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>147, 19</value>
+  </data>
+  <data name="&gt;&gt;portGroupBox.Name" xml:space="preserve">
+    <value>portGroupBox</value>
+  </data>
+  <data name="&gt;&gt;useBytesInsteadOfBitsCheckBox.Parent" xml:space="preserve">
+    <value>miscOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;nineRadioButton.Parent" xml:space="preserve">
+    <value>averageConnectionsCountGroupBox</value>
+  </data>
+  <data name="&gt;&gt;tenRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;fourRadioButton.Parent" xml:space="preserve">
+    <value>averageConnectionsCountGroupBox</value>
+  </data>
+  <data name="oneRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="portGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>634, 45</value>
+  </data>
+  <data name="fourRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;startInTrayCheckBox.Parent" xml:space="preserve">
+    <value>miscOptionsGroupBox</value>
+  </data>
+  <data name="eigthRadioButton.Text" xml:space="preserve">
+    <value>8 - 10</value>
+  </data>
+  <data name="&gt;&gt;progressBarsHaveShadowCheckBox.Parent" xml:space="preserve">
+    <value>progressBarsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;enableDownloadLimitCheckBox.Name" xml:space="preserve">
+    <value>enableDownloadLimitCheckBox</value>
+  </data>
+  <data name="portGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="ResetTrayBehaviorButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>507, 81</value>
+  </data>
+  <data name="portTestButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="tenRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>467, 19</value>
+  </data>
+  <data name="enableDownloadLimitCheckBox.Text" xml:space="preserve">
+    <value>Enable Download Limit</value>
+  </data>
+  <data name="&gt;&gt;portTestButton.Name" xml:space="preserve">
+    <value>portTestButton</value>
+  </data>
+  <data name="autoMoveLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>222, 65</value>
+  </data>
+  <data name="downloadLimitGroupBox.Text" xml:space="preserve">
+    <value>Download Limit (KiBits/s)</value>
+  </data>
+  <data name="enableDownloadLimitCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 17</value>
+  </data>
+  <data name="&gt;&gt;synchronizeWebCachesCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;downloadLimitNumericUpDown.Name" xml:space="preserve">
+    <value>downloadLimitNumericUpDown</value>
+  </data>
+  <data name="portTestButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>532, 19</value>
+  </data>
+  <data name="miscOptionsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>634, 110</value>
+  </data>
+  <data name="fiveRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="nineRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ResetTrayBehaviorButton.Text" xml:space="preserve">
+    <value>Reset Tray Behavior</value>
+  </data>
+  <data name="&gt;&gt;enableUploadLimitCheckBox.Name" xml:space="preserve">
+    <value>enableUploadLimitCheckBox</value>
+  </data>
+  <data name="&gt;&gt;downloadCapacityGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="uploadLimitGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;threeRadioButton.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="eigthRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;ResetTrayBehaviorButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;showMessageBoxesCheckBox.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;ParseCollectionsCheckBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="averageConnectionsCountGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>634, 40</value>
+  </data>
+  <data name="progressBarsShowPercentCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="downloadCapacityNumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 20</value>
+  </data>
+  <data name="&gt;&gt;portNumericUpDown.Parent" xml:space="preserve">
+    <value>portGroupBox</value>
+  </data>
+  <data name="fourRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="&gt;&gt;autoMoveLabel.Name" xml:space="preserve">
+    <value>autoMoveLabel</value>
+  </data>
+  <data name="fiveRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;uploadCapacityGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;showMessageBoxesCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="progressBarsShowPercentCheckBox.Text" xml:space="preserve">
+    <value>Show Percent</value>
+  </data>
+  <data name="autoMoveCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;startInTrayCheckBox.Name" xml:space="preserve">
+    <value>startInTrayCheckBox</value>
+  </data>
+  <data name="NewDownloadsToBeginngingOfQueueCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;ParseCollectionsCheckBox.Parent" xml:space="preserve">
+    <value>miscOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;portGroupBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PreferencesControl</value>
+  </data>
+  <data name="&gt;&gt;progressBarsGroupBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ParseCollectionsCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>107, 17</value>
+  </data>
+  <data name="NewDownloadsToBeginngingOfQueueCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="autoMoveLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="threeRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;startInTrayCheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="averageConnectionsCountGroupBox.Text" xml:space="preserve">
+    <value>Average Connections Count</value>
+  </data>
+  <data name="progressBarsShadowNumericUpDown.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;sixRadioButton.Parent" xml:space="preserve">
+    <value>averageConnectionsCountGroupBox</value>
+  </data>
+  <data name="&gt;&gt;ParseCollectionsCheckBox.Name" xml:space="preserve">
+    <value>ParseCollectionsCheckBox</value>
+  </data>
+  <data name="downloadCapacityNumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;downloadLimitNumericUpDown.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="downloadCapacityGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 102</value>
+  </data>
+  <data name="portTestButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;autoMoveCheckBox.Parent" xml:space="preserve">
+    <value>miscOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;NewDownloadsToBeginngingOfQueueCheckBox.Parent" xml:space="preserve">
+    <value>miscOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;progressBarsShowPercentCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="portTestButton.Text" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="&gt;&gt;fourRadioButton.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="nineRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="oneRadioButton.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;oneRadioButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="portTestButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 20</value>
+  </data>
+  <data name="&gt;&gt;downloadCapacityNumericUpDown.Parent" xml:space="preserve">
+    <value>downloadCapacityGroupBox</value>
+  </data>
+  <data name="&gt;&gt;autoMoveNumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uploadCapacityGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="synchronizeWebCachesCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;downloadLimitGroupBox.Name" xml:space="preserve">
+    <value>downloadLimitGroupBox</value>
+  </data>
+  <data name="ParseCollectionsCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;uploadLimitNumericUpDown.Name" xml:space="preserve">
+    <value>uploadLimitNumericUpDown</value>
+  </data>
+  <data name="uploadCapacityGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="fiveRadioButton.Text" xml:space="preserve">
+    <value>5 - 6</value>
+  </data>
+  <data name="&gt;&gt;uploadLimitNumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="downloadCapacityNumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="&gt;&gt;nineRadioButton.Name" xml:space="preserve">
+    <value>nineRadioButton</value>
+  </data>
+  <data name="&gt;&gt;uploadLimitNumericUpDown.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="uploadCapacityNumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 20</value>
+  </data>
+  <data name="enableUploadLimitCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 17</value>
+  </data>
+  <data name="&gt;&gt;enableUploadLimitCheckBox.Parent" xml:space="preserve">
+    <value>uploadLimitGroupBox</value>
+  </data>
+  <data name="useBytesInsteadOfBitsCheckBox.Text" xml:space="preserve">
+    <value>Use Bytes/s Instead of Bits/s</value>
+  </data>
+  <data name="synchronizeWebCachesCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="autoMoveLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;downloadLimitNumericUpDown.Parent" xml:space="preserve">
+    <value>downloadLimitGroupBox</value>
+  </data>
+  <data name="uploadCapacityGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 46</value>
+  </data>
+  <data name="portGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="miscOptionsGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 281</value>
+  </data>
+  <data name="&gt;&gt;uploadCapacityNumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="useBytesInsteadOfBitsCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 19</value>
+  </data>
+  <data name="portGroupBox.Text" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="&gt;&gt;fiveRadioButton.Name" xml:space="preserve">
+    <value>fiveRadioButton</value>
+  </data>
+  <data name="&gt;&gt;threeRadioButton.Name" xml:space="preserve">
+    <value>threeRadioButton</value>
+  </data>
+  <data name="&gt;&gt;sixRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ParseCollectionsCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="fourRadioButton.Text" xml:space="preserve">
+    <value>4 - 5</value>
+  </data>
+  <data name="&gt;&gt;startInTrayCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nineRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>409, 19</value>
+  </data>
+  <data name="NewDownloadsToBeginngingOfQueueCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 64</value>
+  </data>
+  <data name="portNumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="miscOptionsGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;downloadCapacityNumericUpDown.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;uploadCapacityGroupBox.Name" xml:space="preserve">
+    <value>uploadCapacityGroupBox</value>
+  </data>
+  <data name="downloadLimitGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="progressBarsGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;progressBarsGroupBox.Name" xml:space="preserve">
+    <value>progressBarsGroupBox</value>
+  </data>
+  <data name="startInTrayCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="&gt;&gt;miscOptionsGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewDownloadsToBeginngingOfQueueCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="startInTrayCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ResetTrayBehaviorButton.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="progressBarsShowPercentCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 20</value>
+  </data>
+  <data name="startInTrayCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="sevenRadioButton.Text" xml:space="preserve">
+    <value>7 - 9</value>
+  </data>
+  <data name="sevenRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;downloadCapacityGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;threeRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;enableUploadLimitCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="autoMoveCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 64</value>
+  </data>
+  <data name="eigthRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 17</value>
+  </data>
+  <data name="&gt;&gt;downloadCapacityGroupBox.Name" xml:space="preserve">
+    <value>downloadCapacityGroupBox</value>
+  </data>
+  <data name="synchronizeWebCachesCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 17</value>
+  </data>
+  <data name="&gt;&gt;nineRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;portTestButton.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;progressBarsGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;eigthRadioButton.Name" xml:space="preserve">
+    <value>eigthRadioButton</value>
+  </data>
+  <data name="downloadLimitNumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;downloadLimitGroupBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="NewDownloadsToBeginngingOfQueueCheckBox.Text" xml:space="preserve">
+    <value>Add new downloads to beginning of queue</value>
+  </data>
+  <data name="threeRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="&gt;&gt;progressBarsShowPercentCheckBox.Parent" xml:space="preserve">
+    <value>progressBarsGroupBox</value>
+  </data>
+  <data name="showMessageBoxesCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;sevenRadioButton.Name" xml:space="preserve">
+    <value>sevenRadioButton</value>
+  </data>
+  <data name="SubFolderForCollectionsCheckBox.Text" xml:space="preserve">
+    <value>Subfolders for Collections</value>
+  </data>
+  <data name="&gt;&gt;enableUploadLimitCheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="sixRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;portNumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="uploadCapacityNumericUpDown.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="enableDownloadLimitCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="sevenRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 19</value>
+  </data>
+  <data name="showMessageBoxesCheckBox.Text" xml:space="preserve">
+    <value>Show MessageBoxes</value>
+  </data>
+  <data name="tenRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;progressBarsHaveShadowCheckBox.Name" xml:space="preserve">
+    <value>progressBarsHaveShadowCheckBox</value>
+  </data>
+  <data name="uploadLimitNumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="&gt;&gt;downloadLimitGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="uploadLimitGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 155</value>
+  </data>
+  <data name="useBytesInsteadOfBitsCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="eigthRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;sixRadioButton.Name" xml:space="preserve">
+    <value>sixRadioButton</value>
+  </data>
+  <data name="downloadLimitGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 155</value>
+  </data>
+  <data name="&gt;&gt;autoMoveLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="miscOptionsGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="progressBarsGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;progressBarsShadowNumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NewDownloadsToBeginngingOfQueueCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 17</value>
+  </data>
+  <data name="twoRadioButton.Text" xml:space="preserve">
+    <value>2 - 3</value>
+  </data>
+  <data name="twoRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>43, 19</value>
+  </data>
+  <data name="downloadLimitNumericUpDown.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="enableDownloadLimitCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="&gt;&gt;uploadCapacityNumericUpDown.Name" xml:space="preserve">
+    <value>uploadCapacityNumericUpDown</value>
+  </data>
+  <data name="&gt;&gt;SubFolderForCollectionsCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sevenRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="autoMoveLabel.Text" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="&gt;&gt;ParseCollectionsCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;uploadLimitGroupBox.Name" xml:space="preserve">
+    <value>uploadLimitGroupBox</value>
+  </data>
+  <data name="&gt;&gt;progressBarsShadowNumericUpDown.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="uploadLimitNumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="eigthRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 19</value>
+  </data>
+  <data name="portNumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>519, 20</value>
+  </data>
+  <data name="&gt;&gt;progressBarsShadowNumericUpDown.Name" xml:space="preserve">
+    <value>progressBarsShadowNumericUpDown</value>
+  </data>
+  <data name="downloadCapacityNumericUpDown.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;progressBarsShowPercentCheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tenRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="autoMoveLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;fiveRadioButton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="SubFolderForCollectionsCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="autoMoveNumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 63</value>
+  </data>
+  <data name="enableUploadLimitCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uploadCapacityNumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="&gt;&gt;miscOptionsGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="tenRadioButton.Text" xml:space="preserve">
+    <value>10 - 13</value>
+  </data>
+  <data name="oneRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>31, 17</value>
+  </data>
+  <data name="downloadCapacityGroupBox.Text" xml:space="preserve">
+    <value>Download Capacity for graph in statistics (KiBits/s)</value>
+  </data>
+  <data name="&gt;&gt;averageConnectionsCountGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="progressBarsShowPercentCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 17</value>
+  </data>
+  <data name="&gt;&gt;showMessageBoxesCheckBox.Parent" xml:space="preserve">
+    <value>miscOptionsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;autoMoveCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="threeRadioButton.Text" xml:space="preserve">
+    <value>3 - 4</value>
+  </data>
+  <data name="downloadLimitNumericUpDown.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;enableDownloadLimitCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="autoMoveNumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;oneRadioButton.Name" xml:space="preserve">
+    <value>oneRadioButton</value>
+  </data>
+  <data name="progressBarsShadowNumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="threeRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;portTestButton.Parent" xml:space="preserve">
+    <value>portGroupBox</value>
+  </data>
+  <data name="downloadCapacityGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;tenRadioButton.Parent" xml:space="preserve">
+    <value>averageConnectionsCountGroupBox</value>
+  </data>
+  <data name="&gt;&gt;showMessageBoxesCheckBox.Name" xml:space="preserve">
+    <value>showMessageBoxesCheckBox</value>
+  </data>
+  <data name="progressBarsGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 231</value>
+  </data>
+  <data name="&gt;&gt;twoRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ResetTrayBehaviorButton.Parent" xml:space="preserve">
+    <value>miscOptionsGroupBox</value>
+  </data>
+  <data name="autoMoveNumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 20</value>
+  </data>
+  <data name="enableUploadLimitCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="downloadCapacityGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;fiveRadioButton.Parent" xml:space="preserve">
+    <value>averageConnectionsCountGroupBox</value>
+  </data>
+  <data name="&gt;&gt;averageConnectionsCountGroupBox.Name" xml:space="preserve">
+    <value>averageConnectionsCountGroupBox</value>
+  </data>
+  <data name="uploadLimitNumericUpDown.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;synchronizeWebCachesCheckBox.Name" xml:space="preserve">
+    <value>synchronizeWebCachesCheckBox</value>
+  </data>
+  <data name="downloadCapacityGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 46</value>
+  </data>
+  <data name="&gt;&gt;sevenRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NewDownloadsToBeginngingOfQueueCheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;fourRadioButton.Name" xml:space="preserve">
+    <value>fourRadioButton</value>
+  </data>
+  <data name="&gt;&gt;downloadCapacityNumericUpDown.Name" xml:space="preserve">
+    <value>downloadCapacityNumericUpDown</value>
+  </data>
+  <data name="&gt;&gt;fourRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="averageConnectionsCountGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 54</value>
+  </data>
+  <data name="uploadCapacityGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ResetTrayBehaviorButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;averageConnectionsCountGroupBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="progressBarsShadowNumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>77, 19</value>
+  </data>
+  <data name="&gt;&gt;uploadLimitNumericUpDown.Parent" xml:space="preserve">
+    <value>uploadLimitGroupBox</value>
+  </data>
+  <data name="enableUploadLimitCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="autoMoveCheckBox.Text" xml:space="preserve">
+    <value>Auto-queue downloads, every</value>
+  </data>
+  <data name="progressBarsShowPercentCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="uploadCapacityNumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="progressBarsHaveShadowCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
+  </data>
+  <data name="&gt;&gt;downloadCapacityNumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;averageConnectionsCountGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="twoRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ParseCollectionsCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="&gt;&gt;tenRadioButton.Name" xml:space="preserve">
+    <value>tenRadioButton</value>
+  </data>
+  <data name="&gt;&gt;threeRadioButton.Parent" xml:space="preserve">
+    <value>averageConnectionsCountGroupBox</value>
+  </data>
+  <data name="portNumericUpDown.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;autoMoveLabel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="startInTrayCheckBox.Text" xml:space="preserve">
+    <value>Start in tray bar</value>
+  </data>
+  <data name="twoRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="downloadLimitNumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="&gt;&gt;twoRadioButton.Parent" xml:space="preserve">
+    <value>averageConnectionsCountGroupBox</value>
+  </data>
+  <data name="&gt;&gt;sevenRadioButton.Parent" xml:space="preserve">
+    <value>averageConnectionsCountGroupBox</value>
+  </data>
+  <data name="uploadLimitGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 69</value>
+  </data>
+  <data name="progressBarsHaveShadowCheckBox.Text" xml:space="preserve">
+    <value>Shadow</value>
+  </data>
+  <data name="&gt;&gt;uploadLimitGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="downloadLimitGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 69</value>
+  </data>
+  <data name="showMessageBoxesCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 17</value>
+  </data>
+  <data name="&gt;&gt;uploadLimitGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="progressBarsGroupBox.Text" xml:space="preserve">
+    <value>Progress Bars</value>
+  </data>
+  <data name="SubFolderForCollectionsCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 42</value>
+  </data>
+  <data name="&gt;&gt;portNumericUpDown.Name" xml:space="preserve">
+    <value>portNumericUpDown</value>
+  </data>
+  <data name="&gt;&gt;NewDownloadsToBeginngingOfQueueCheckBox.Name" xml:space="preserve">
+    <value>NewDownloadsToBeginngingOfQueueCheckBox</value>
+  </data>
+  <data name="uploadLimitNumericUpDown.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;sixRadioButton.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;uploadCapacityNumericUpDown.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;downloadCapacityGroupBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ResetTrayBehaviorButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 23</value>
+  </data>
+  <data name="averageConnectionsCountGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="progressBarsShadowNumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 20</value>
+  </data>
+  <data name="useBytesInsteadOfBitsCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;useBytesInsteadOfBitsCheckBox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="uploadLimitNumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 20</value>
+  </data>
+  <data name="twoRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="showMessageBoxesCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;autoMoveCheckBox.Name" xml:space="preserve">
+    <value>autoMoveCheckBox</value>
+  </data>
+  <data name="averageConnectionsCountGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="nineRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;sevenRadioButton.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="downloadLimitNumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>302, 20</value>
+  </data>
+  <data name="portNumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="uploadLimitGroupBox.Text" xml:space="preserve">
+    <value>Upload Limit (KiBits/s)</value>
+  </data>
+  <data name="SubFolderForCollectionsCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 17</value>
+  </data>
+  <data name="sixRadioButton.Text" xml:space="preserve">
+    <value>6 - 8</value>
+  </data>
+  <data name="&gt;&gt;fiveRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;twoRadioButton.Name" xml:space="preserve">
+    <value>twoRadioButton</value>
+  </data>
+  <data name="&gt;&gt;twoRadioButton.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;synchronizeWebCachesCheckBox.Parent" xml:space="preserve">
+    <value>miscOptionsGroupBox</value>
+  </data>
+  <data name="useBytesInsteadOfBitsCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 17</value>
+  </data>
+  <data name="progressBarsHaveShadowCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;uploadCapacityGroupBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;uploadLimitGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;synchronizeWebCachesCheckBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="synchronizeWebCachesCheckBox.Text" xml:space="preserve">
+    <value>Synchronize WebCaches</value>
+  </data>
+  <data name="&gt;&gt;progressBarsShadowNumericUpDown.Parent" xml:space="preserve">
+    <value>progressBarsGroupBox</value>
+  </data>
+  <data name="oneRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;tenRadioButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="autoMoveCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="threeRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 19</value>
+  </data>
+  <data name="synchronizeWebCachesCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="&gt;&gt;enableDownloadLimitCheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;progressBarsGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="uploadCapacityGroupBox.Text" xml:space="preserve">
+    <value>Upload Capacity for graph in statistics (KiBits/s)</value>
+  </data>
+  <data name="&gt;&gt;oneRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ParseCollectionsCheckBox.Text" xml:space="preserve">
+    <value>Parse Collections</value>
+  </data>
+  <data name="startInTrayCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 42</value>
+  </data>
+  <data name="fiveRadioButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>199, 19</value>
+  </data>
+  <data name="autoMoveCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>167, 17</value>
+  </data>
+  <data name="downloadLimitGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;ResetTrayBehaviorButton.Name" xml:space="preserve">
+    <value>ResetTrayBehaviorButton</value>
+  </data>
+  <data name="&gt;&gt;useBytesInsteadOfBitsCheckBox.Name" xml:space="preserve">
+    <value>useBytesInsteadOfBitsCheckBox</value>
+  </data>
+  <data name="&gt;&gt;nineRadioButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ResetTrayBehaviorButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="fourRadioButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sixRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 17</value>
+  </data>
+  <data name="tenRadioButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 17</value>
+  </data>
+  <data name="uploadCapacityGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 102</value>
+  </data>
+  <data name="&gt;&gt;uploadCapacityNumericUpDown.Parent" xml:space="preserve">
+    <value>uploadCapacityGroupBox</value>
+  </data>
+  <data name="portGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;miscOptionsGroupBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;downloadLimitGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;downloadLimitNumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressBarsHaveShadowCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="progressBarsHaveShadowCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;portTestButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SubFolderForCollectionsCheckBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;eigthRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;portNumericUpDown.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="sixRadioButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;progressBarsHaveShadowCheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;portGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressBarsShowPercentCheckBox.Name" xml:space="preserve">
+    <value>progressBarsShowPercentCheckBox</value>
+  </data>
+  <data name="&gt;&gt;eigthRadioButton.Parent" xml:space="preserve">
+    <value>averageConnectionsCountGroupBox</value>
+  </data>
+  <data name="&gt;&gt;SubFolderForCollectionsCheckBox.Parent" xml:space="preserve">
+    <value>miscOptionsGroupBox</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>640, 480</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

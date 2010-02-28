@@ -1,0 +1,11 @@
+0000=Muestra del Globalization de C#.Net 
+0001=Incorporar el username
+0002=Incorporar la contraseña
+0003=Incorporar el email
+0004=Someta
+0005=Reajuste 
+0006=Recepción
+0007=Probar para la caja de mensaje 
+0008=¡Espero que tengas gusto de él! Agregar por favor tus comentarios/sugerencia y no olvidarte DE VOTAR 
+0009=Seleccione La Lengua
+0010=¿Inglés de la lengua del defecto? 

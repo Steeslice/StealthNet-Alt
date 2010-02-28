@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="SettingDirCoruptFiles_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sharedDirectoriesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;SettingDirTempFiles_label.Name" xml:space="preserve">
+    <value>SettingDirTempFiles_label</value>
+  </data>
+  <data name="&gt;&gt;SettingDirPrefFiles_textbox.Name" xml:space="preserve">
+    <value>SettingDirPrefFiles_textbox</value>
+  </data>
+  <data name="&gt;&gt;SettingDirLogFiles_textbox.Name" xml:space="preserve">
+    <value>SettingDirLogFiles_textbox</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="sharedDirectoriesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 17</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="sharedDirectoriesDataGridView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="SettingDirTempFiles_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;browseIncomFiles_btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SettingDirLogFiles_textbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 48</value>
+  </data>
+  <data name="SettingDirPrefFiles_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SettingDirLogFiles_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="&gt;&gt;browsePrefFiles_btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progDirs_groupbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;browsePrefFiles_btn.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;SettingDirIncomFiles_label.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="SettingDirCoruptFiles_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;SettingDirCoruptFiles_textbox.Name" xml:space="preserve">
+    <value>SettingDirCoruptFiles_textbox</value>
+  </data>
+  <data name="SettingDirCoruptFiles_label.Text" xml:space="preserve">
+    <value>Corrupt Files</value>
+  </data>
+  <data name="SettingDirPrefFiles_label.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;sharedDirectoriesDataGridView.Parent" xml:space="preserve">
+    <value>sharedDirs_groupbox</value>
+  </data>
+  <data name="&gt;&gt;SettingDirCoruptFiles_textbox.Parent" xml:space="preserve">
+    <value>progDirs_groupbox</value>
+  </data>
+  <data name="&gt;&gt;browseTempFiles_btn.Name" xml:space="preserve">
+    <value>browseTempFiles_btn</value>
+  </data>
+  <data name="&gt;&gt;SettingDirTempFiles_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="progDirs_groupbox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="progDirs_groupbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>389, 166</value>
+  </data>
+  <data name="sharedDirectoriesDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="addSharedDirectoryButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="SettingDirCoruptFiles_textbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 20</value>
+  </data>
+  <data name="SettingDirIncomFiles_label.Text" xml:space="preserve">
+    <value>Incoming Files</value>
+  </data>
+  <data name="&gt;&gt;browseCorruptFiles_btn.Parent" xml:space="preserve">
+    <value>progDirs_groupbox</value>
+  </data>
+  <data name="&gt;&gt;SettingDirCoruptFiles_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sharedDirectoriesDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 33</value>
+  </data>
+  <data name="browseCorruptFiles_btn.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="browsePrefFiles_btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 20</value>
+  </data>
+  <data name="removeSharedDirectoryButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="&gt;&gt;SettingDirIncomFiles_textbox.Name" xml:space="preserve">
+    <value>SettingDirIncomFiles_textbox</value>
+  </data>
+  <data name="browseIncomFiles_btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 72</value>
+  </data>
+  <data name="SettingDirIncomFiles_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 77</value>
+  </data>
+  <data name="SettingDirPrefFiles_textbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="&gt;&gt;browseIncomFiles_btn.Name" xml:space="preserve">
+    <value>browseIncomFiles_btn</value>
+  </data>
+  <data name="SettingDirIncomFiles_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;sharedDirectoriesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SettingDirCoruptFiles_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="&gt;&gt;browseIncomFiles_btn.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="browseCorruptFiles_btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 98</value>
+  </data>
+  <data name="&gt;&gt;SettingDirIncomFiles_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SettingDirIncomFiles_label.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;browsePrefFiles_btn.Name" xml:space="preserve">
+    <value>browsePrefFiles_btn</value>
+  </data>
+  <data name="&gt;&gt;addSharedDirectoryButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SettingDirTempFiles_textbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 126</value>
+  </data>
+  <data name="&gt;&gt;addSharedDirectoryButton.Parent" xml:space="preserve">
+    <value>sharedDirs_groupbox</value>
+  </data>
+  <data name="&gt;&gt;SettingDirTempFiles_label.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;SettingDirLogFiles_label.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="browseCorruptFiles_btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="removeSharedDirectoryButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 62</value>
+  </data>
+  <data name="&gt;&gt;sharedDirectoriesLabel.Parent" xml:space="preserve">
+    <value>sharedDirs_groupbox</value>
+  </data>
+  <data name="&gt;&gt;addSharedDirectoryButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;SettingDirPrefFiles_label.Parent" xml:space="preserve">
+    <value>progDirs_groupbox</value>
+  </data>
+  <data name="SettingDirIncomFiles_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SettingDirTempFiles_textbox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="browsePrefFiles_btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;SettingDirPrefFiles_label.Name" xml:space="preserve">
+    <value>SettingDirPrefFiles_label</value>
+  </data>
+  <data name="&gt;&gt;SettingDirLogFiles_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="browseIncomFiles_btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SettingDirPrefFiles_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="&gt;&gt;SettingDirIncomFiles_textbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SettingDirIncomFiles_textbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 74</value>
+  </data>
+  <data name="progDirs_groupbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 226</value>
+  </data>
+  <data name="&gt;&gt;sharedDirectoriesDataGridView.Type" xml:space="preserve">
+    <value>Regensburger.RShare.DoubleBufferedDataGridView, StealthNet, Version=0.8.2.0, Culture=neutral, PublicKeyToken=4e32abcf5e170f40</value>
+  </data>
+  <data name="sharedDirs_groupbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="sharedDirectoriesDataGridView.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="SettingDirTempFiles_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 129</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Settings_DirectoryControl</value>
+  </data>
+  <data name="&gt;&gt;SettingDirCoruptFiles_textbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;browseTempFiles_btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SettingDirLogFiles_textbox.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="SettingDirCoruptFiles_label.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;SettingDirCoruptFiles_label.Name" xml:space="preserve">
+    <value>SettingDirCoruptFiles_label</value>
+  </data>
+  <data name="browseLogFiles_btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="&gt;&gt;SettingDirLogFiles_textbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="browseLogFiles_btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;sharedDirs_groupbox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SettingDirCoruptFiles_textbox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;SettingDirLogFiles_label.Parent" xml:space="preserve">
+    <value>progDirs_groupbox</value>
+  </data>
+  <data name="SettingDirTempFiles_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="&gt;&gt;removeSharedDirectoryButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="browsePrefFiles_btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="SettingDirIncomFiles_textbox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="browseTempFiles_btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="progDirs_groupbox.Text" xml:space="preserve">
+    <value>Program Directrories</value>
+  </data>
+  <data name="&gt;&gt;SettingDirIncomFiles_textbox.Parent" xml:space="preserve">
+    <value>progDirs_groupbox</value>
+  </data>
+  <data name="&gt;&gt;SettingDirLogFiles_label.Name" xml:space="preserve">
+    <value>SettingDirLogFiles_label</value>
+  </data>
+  <data name="sharedDirectoriesLabel.Text" xml:space="preserve">
+    <value>sharedDirectoriesLabel</value>
+  </data>
+  <data name="&gt;&gt;Path.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SettingDirIncomFiles_label.Name" xml:space="preserve">
+    <value>SettingDirIncomFiles_label</value>
+  </data>
+  <data name="SettingDirLogFiles_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;SettingDirTempFiles_textbox.Parent" xml:space="preserve">
+    <value>progDirs_groupbox</value>
+  </data>
+  <data name="&gt;&gt;browseLogFiles_btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SettingDirLogFiles_textbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 20</value>
+  </data>
+  <data name="&gt;&gt;browseCorruptFiles_btn.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;SettingDirCoruptFiles_label.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="removeSharedDirectoryButton.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="SettingDirTempFiles_label.Text" xml:space="preserve">
+    <value>Temporary Files</value>
+  </data>
+  <data name="SettingDirCoruptFiles_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 103</value>
+  </data>
+  <data name="&gt;&gt;sharedDirectoriesLabel.Name" xml:space="preserve">
+    <value>sharedDirectoriesLabel</value>
+  </data>
+  <data name="sharedDirectoriesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 13</value>
+  </data>
+  <data name="&gt;&gt;SettingDirIncomFiles_textbox.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sharedDirectoriesLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="browseLogFiles_btn.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="addSharedDirectoryButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>360, 33</value>
+  </data>
+  <data name="&gt;&gt;SettingDirIncomFiles_label.Parent" xml:space="preserve">
+    <value>progDirs_groupbox</value>
+  </data>
+  <data name="&gt;&gt;SettingDirTempFiles_textbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;browseCorruptFiles_btn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SettingDirPrefFiles_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SettingDirIncomFiles_textbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 20</value>
+  </data>
+  <data name="SettingDirPrefFiles_label.Text" xml:space="preserve">
+    <value>Preferences</value>
+  </data>
+  <data name="browseTempFiles_btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="sharedDirs_groupbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>389, 201</value>
+  </data>
+  <data name="&gt;&gt;SettingDirPrefFiles_textbox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;progDirs_groupbox.Name" xml:space="preserve">
+    <value>progDirs_groupbox</value>
+  </data>
+  <data name="&gt;&gt;sharedDirs_groupbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SettingDirPrefFiles_textbox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="browseCorruptFiles_btn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;SettingDirPrefFiles_textbox.Parent" xml:space="preserve">
+    <value>progDirs_groupbox</value>
+  </data>
+  <data name="&gt;&gt;SettingDirCoruptFiles_label.Parent" xml:space="preserve">
+    <value>progDirs_groupbox</value>
+  </data>
+  <data name="&gt;&gt;browseTempFiles_btn.Parent" xml:space="preserve">
+    <value>progDirs_groupbox</value>
+  </data>
+  <data name="browsePrefFiles_btn.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;SettingDirPrefFiles_label.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="SettingDirTempFiles_label.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;sharedDirs_groupbox.Name" xml:space="preserve">
+    <value>sharedDirs_groupbox</value>
+  </data>
+  <data name="SettingDirLogFiles_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Name" xml:space="preserve">
+    <value>folderBrowserDialog</value>
+  </data>
+  <data name="&gt;&gt;sharedDirectoriesDataGridView.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;progDirs_groupbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;browseLogFiles_btn.Parent" xml:space="preserve">
+    <value>progDirs_groupbox</value>
+  </data>
+  <data name="&gt;&gt;Path.Name" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="removeSharedDirectoryButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Icon.MinimumWidth" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="browseTempFiles_btn.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="sharedDirs_groupbox.Text" xml:space="preserve">
+    <value>Shared Directories</value>
+  </data>
+  <data name="SettingDirLogFiles_label.Text" xml:space="preserve">
+    <value>Logfiles</value>
+  </data>
+  <data name="&gt;&gt;browseLogFiles_btn.Name" xml:space="preserve">
+    <value>browseLogFiles_btn</value>
+  </data>
+  <data name="browseIncomFiles_btn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="&gt;&gt;SettingDirTempFiles_label.Parent" xml:space="preserve">
+    <value>progDirs_groupbox</value>
+  </data>
+  <data name="&gt;&gt;sharedDirs_groupbox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;SettingDirTempFiles_textbox.Name" xml:space="preserve">
+    <value>SettingDirTempFiles_textbox</value>
+  </data>
+  <data name="sharedDirectoriesDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>347, 162</value>
+  </data>
+  <data name="addSharedDirectoryButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 23</value>
+  </data>
+  <data name="&gt;&gt;browseLogFiles_btn.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="SettingDirPrefFiles_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SettingDirTempFiles_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SettingDirLogFiles_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 51</value>
+  </data>
+  <data name="SettingDirCoruptFiles_textbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 100</value>
+  </data>
+  <data name="&gt;&gt;Icon.Name" xml:space="preserve">
+    <value>Icon</value>
+  </data>
+  <data name="sharedDirectoriesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SettingDirLogFiles_label.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;SettingDirLogFiles_textbox.Parent" xml:space="preserve">
+    <value>progDirs_groupbox</value>
+  </data>
+  <data name="&gt;&gt;sharedDirectoriesDataGridView.Name" xml:space="preserve">
+    <value>sharedDirectoriesDataGridView</value>
+  </data>
+  <data name="&gt;&gt;SettingDirTempFiles_textbox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;browseCorruptFiles_btn.Name" xml:space="preserve">
+    <value>browseCorruptFiles_btn</value>
+  </data>
+  <data name="&gt;&gt;removeSharedDirectoryButton.Parent" xml:space="preserve">
+    <value>sharedDirs_groupbox</value>
+  </data>
+  <data name="&gt;&gt;browseIncomFiles_btn.Parent" xml:space="preserve">
+    <value>progDirs_groupbox</value>
+  </data>
+  <data name="browseLogFiles_btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 46</value>
+  </data>
+  <data name="SettingDirTempFiles_textbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 20</value>
+  </data>
+  <data name="&gt;&gt;browsePrefFiles_btn.Parent" xml:space="preserve">
+    <value>progDirs_groupbox</value>
+  </data>
+  <data name="SettingDirPrefFiles_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="&gt;&gt;SettingDirPrefFiles_textbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Icon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SettingDirIncomFiles_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="&gt;&gt;progDirs_groupbox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;addSharedDirectoryButton.Name" xml:space="preserve">
+    <value>addSharedDirectoryButton</value>
+  </data>
+  <data name="SettingDirCoruptFiles_textbox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Path.HeaderText" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="sharedDirs_groupbox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="browseIncomFiles_btn.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;browseTempFiles_btn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SettingDirPrefFiles_textbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>234, 20</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="SettingDirLogFiles_textbox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="browseTempFiles_btn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>362, 124</value>
+  </data>
+  <data name="addSharedDirectoryButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;removeSharedDirectoryButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="Icon.Width" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;removeSharedDirectoryButton.Name" xml:space="preserve">
+    <value>removeSharedDirectoryButton</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 395</value>
+  </data>
+  <data name="Icon.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

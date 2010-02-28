@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="PreviewSettingsGroupBox.Text" xml:space="preserve">
+    <value>Preview settings</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ActivateSearchDBCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;downloadsLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtFrenchLanguage.Name" xml:space="preserve">
+    <value>rbtFrenchLanguage</value>
+  </data>
+  <data name="PreviewPlayerBrowseDialog.Title" xml:space="preserve">
+    <value>Select the executable for the Media Player</value>
+  </data>
+  <data name="&gt;&gt;ActivateSearchDBCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="downloadsGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;PreviewSettingsGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="OnlineSignatureLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="&gt;&gt;OnlineSignatureLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="downloadsGroupBox.Text" xml:space="preserve">
+    <value>Number of simultaneous Downloads</value>
+  </data>
+  <data name="&gt;&gt;OnlineSignatureLabel1.Name" xml:space="preserve">
+    <value>OnlineSignatureLabel1</value>
+  </data>
+  <data name="downloadsComboBox.Items" xml:space="preserve">
+    <value> 1 Download  - 12 Sources (Most Speed)</value>
+  </data>
+  <data name="SearchDBLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 44</value>
+  </data>
+  <data name="&gt;&gt;SearchDBCleanUpDaysNumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;writeLogCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtGermanLanguage.Parent" xml:space="preserve">
+    <value>languageSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;OnlineSignatureLabel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LoggingGroupBox.Name" xml:space="preserve">
+    <value>LoggingGroupBox</value>
+  </data>
+  <data name="downloadsComboBox.Items3" xml:space="preserve">
+    <value> 4 Downloads -  3 Sources</value>
+  </data>
+  <data name="&gt;&gt;LoggingGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="writeLogCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;languageSettingsGroupBox.Name" xml:space="preserve">
+    <value>languageSettingsGroupBox</value>
+  </data>
+  <data name="rbtTurkishLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="downloadsLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 13</value>
+  </data>
+  <data name="&gt;&gt;PreviewSettingsGroupBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;rbtEnglishLanguage.Parent" xml:space="preserve">
+    <value>languageSettingsGroupBox</value>
+  </data>
+  <data name="downloadsLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="&gt;&gt;btnBrowsePreviewPlayer.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="rbtGermanLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 65</value>
+  </data>
+  <data name="&gt;&gt;SearchDBGroupBox.Name" xml:space="preserve">
+    <value>SearchDBGroupBox</value>
+  </data>
+  <data name="OnlineSignatureLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;rbtEnglishLanguage.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="rbtTurkishLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 17</value>
+  </data>
+  <data name="lblPreviewPlayer.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;rbtFrenchLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtTurkishLanguage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="rbtSpanishLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 17</value>
+  </data>
+  <data name="&gt;&gt;SearchDBLabel2.Parent" xml:space="preserve">
+    <value>SearchDBGroupBox</value>
+  </data>
+  <data name="txtBoxPreviewPlayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 20</value>
+  </data>
+  <data name="txtBoxPreviewPlayer.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LoggingGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;rbtTurkishLanguage.Parent" xml:space="preserve">
+    <value>languageSettingsGroupBox</value>
+  </data>
+  <data name="rbtSpanishLanguage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtTurkishLanguage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;SearchDBLabel1.Parent" xml:space="preserve">
+    <value>SearchDBGroupBox</value>
+  </data>
+  <data name="&gt;&gt;writeLogCheckBox.Parent" xml:space="preserve">
+    <value>LoggingGroupBox</value>
+  </data>
+  <data name="OnlineSignatureLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="rbtGermanLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;OnlineSignatureGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ActiveOnlineSignatureCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;rbtTurkishLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPreviewPlayer.Parent" xml:space="preserve">
+    <value>PreviewSettingsGroupBox</value>
+  </data>
+  <data name="downloadsComboBox.Items2" xml:space="preserve">
+    <value> 3 Downloads -  4 Sources</value>
+  </data>
+  <data name="OnlineSignatureLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 13</value>
+  </data>
+  <data name="&gt;&gt;btnBrowsePreviewPlayer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rbtFrenchLanguage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MiscControl</value>
+  </data>
+  <data name="&gt;&gt;downloadsGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="languageSettingsGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;downloadsLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="SearchDBCleanUpDaysNumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="SearchDBCleanUpDaysNumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>115, 42</value>
+  </data>
+  <data name="downloadsComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="writeLogCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 17</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="rbtTurkishLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 19</value>
+  </data>
+  <data name="&gt;&gt;txtBoxPreviewPlayer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OnlineSignatureLabel2.Name" xml:space="preserve">
+    <value>OnlineSignatureLabel2</value>
+  </data>
+  <data name="rbtTurkishLanguage.Text" xml:space="preserve">
+    <value>Türçe</value>
+  </data>
+  <data name="SearchDBGroupBox.Text" xml:space="preserve">
+    <value>Saving of searchresults</value>
+  </data>
+  <data name="&gt;&gt;PreviewSettingsGroupBox.Name" xml:space="preserve">
+    <value>PreviewSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;rbtGermanLanguage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="rbtEnglishLanguage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PreviewSettingsGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="rbtEnglishLanguage.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="&gt;&gt;rbtFrenchLanguage.Parent" xml:space="preserve">
+    <value>languageSettingsGroupBox</value>
+  </data>
+  <data name="&gt;&gt;rbtGermanLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ActiveOnlineSignatureCheckBox.Parent" xml:space="preserve">
+    <value>OnlineSignatureGroupBox</value>
+  </data>
+  <data name="writeLogCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="LoggingGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;rbtEnglishLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;downloadsComboBox.Parent" xml:space="preserve">
+    <value>downloadsGroupBox</value>
+  </data>
+  <data name="rbtFrenchLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
+  </data>
+  <data name="&gt;&gt;languageSettingsGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="downloadsComboBox.Items1" xml:space="preserve">
+    <value> 2 Downloads -  6 Sources</value>
+  </data>
+  <data name="OnlineSignatureLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txtBoxPreviewPlayer.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;OnlineSignatureUpdateIntervallNumericUpDown.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ActiveOnlineSignatureCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="LoggingGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;downloadsGroupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtBoxPreviewPlayer.Name" xml:space="preserve">
+    <value>txtBoxPreviewPlayer</value>
+  </data>
+  <data name="OnlineSignatureGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rbtGermanLanguage.Name" xml:space="preserve">
+    <value>rbtGermanLanguage</value>
+  </data>
+  <data name="SearchDBGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="OnlineSignatureLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="rbtGermanLanguage.Text" xml:space="preserve">
+    <value>Deutsch</value>
+  </data>
+  <data name="downloadsComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>153, 19</value>
+  </data>
+  <data name="&gt;&gt;rbtItalianLanguage.Parent" xml:space="preserve">
+    <value>languageSettingsGroupBox</value>
+  </data>
+  <data name="rbtSpanishLanguage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;SearchDBLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;languageSettingsGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ActivateSearchDBCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="SearchDBLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 44</value>
+  </data>
+  <data name="rbtTurkishLanguage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblPreviewPlayer.Name" xml:space="preserve">
+    <value>lblPreviewPlayer</value>
+  </data>
+  <data name="&gt;&gt;downloadsGroupBox.Name" xml:space="preserve">
+    <value>downloadsGroupBox</value>
+  </data>
+  <data name="SearchDBLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="&gt;&gt;ActiveOnlineSignatureCheckBox.Name" xml:space="preserve">
+    <value>ActiveOnlineSignatureCheckBox</value>
+  </data>
+  <data name="rbtEnglishLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="&gt;&gt;SearchDBLabel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="rbtFrenchLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="&gt;&gt;ActiveOnlineSignatureCheckBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;rbtSpanishLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;downloadsLabel.Parent" xml:space="preserve">
+    <value>downloadsGroupBox</value>
+  </data>
+  <data name="rbtItalianLanguage.Text" xml:space="preserve">
+    <value>Italiano</value>
+  </data>
+  <data name="OnlineSignatureLabel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 44</value>
+  </data>
+  <data name="downloadsLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;OnlineSignatureGroupBox.Name" xml:space="preserve">
+    <value>OnlineSignatureGroupBox</value>
+  </data>
+  <data name="SearchDBGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 68</value>
+  </data>
+  <data name="&gt;&gt;downloadsComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtBoxPreviewPlayer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 34</value>
+  </data>
+  <data name="&gt;&gt;ActivateSearchDBCheckBox.Parent" xml:space="preserve">
+    <value>SearchDBGroupBox</value>
+  </data>
+  <data name="&gt;&gt;SearchDBGroupBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="OnlineSignatureGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 212</value>
+  </data>
+  <data name="OnlineSignatureGroupBox.Text" xml:space="preserve">
+    <value>Online signature</value>
+  </data>
+  <data name="&gt;&gt;writeLogCheckBox.Name" xml:space="preserve">
+    <value>writeLogCheckBox</value>
+  </data>
+  <data name="&gt;&gt;languageSettingsGroupBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ActiveOnlineSignatureCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="downloadsLabel.Text" xml:space="preserve">
+    <value>Maximum Downloads Count:</value>
+  </data>
+  <data name="&gt;&gt;PreviewPlayerBrowseDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="languageSettingsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>634, 89</value>
+  </data>
+  <data name="lblPreviewPlayer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 18</value>
+  </data>
+  <data name="LoggingGroupBox.Text" xml:space="preserve">
+    <value>Logging</value>
+  </data>
+  <data name="&gt;&gt;OnlineSignatureUpdateIntervallNumericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SearchDBLabel1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnBrowsePreviewPlayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="&gt;&gt;downloadsComboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnBrowsePreviewPlayer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 32</value>
+  </data>
+  <data name="OnlineSignatureUpdateIntervallNumericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 42</value>
+  </data>
+  <data name="btnBrowsePreviewPlayer.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="downloadsGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 286</value>
+  </data>
+  <data name="SearchDBLabel1.Text" xml:space="preserve">
+    <value>Keep results for</value>
+  </data>
+  <data name="&gt;&gt;rbtEnglishLanguage.Name" xml:space="preserve">
+    <value>rbtEnglishLanguage</value>
+  </data>
+  <data name="rbtEnglishLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="rbtItalianLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 42</value>
+  </data>
+  <data name="rbtFrenchLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="rbtGermanLanguage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;SearchDBCleanUpDaysNumericUpDown.Name" xml:space="preserve">
+    <value>SearchDBCleanUpDaysNumericUpDown</value>
+  </data>
+  <data name="languageSettingsGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="OnlineSignatureUpdateIntervallNumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="&gt;&gt;rbtItalianLanguage.Name" xml:space="preserve">
+    <value>rbtItalianLanguage</value>
+  </data>
+  <data name="SearchDBGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 212</value>
+  </data>
+  <data name="&gt;&gt;OnlineSignatureLabel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;OnlineSignatureLabel2.Parent" xml:space="preserve">
+    <value>OnlineSignatureGroupBox</value>
+  </data>
+  <data name="SearchDBCleanUpDaysNumericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 20</value>
+  </data>
+  <data name="&gt;&gt;rbtItalianLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBoxPreviewPlayer.Parent" xml:space="preserve">
+    <value>PreviewSettingsGroupBox</value>
+  </data>
+  <data name="lblPreviewPlayer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;PreviewPlayerBrowseDialog.Name" xml:space="preserve">
+    <value>PreviewPlayerBrowseDialog</value>
+  </data>
+  <data name="&gt;&gt;SearchDBLabel1.Name" xml:space="preserve">
+    <value>SearchDBLabel1</value>
+  </data>
+  <data name="rbtItalianLanguage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="languageSettingsGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 50</value>
+  </data>
+  <data name="&gt;&gt;downloadsLabel.Name" xml:space="preserve">
+    <value>downloadsLabel</value>
+  </data>
+  <data name="&gt;&gt;rbtSpanishLanguage.Parent" xml:space="preserve">
+    <value>languageSettingsGroupBox</value>
+  </data>
+  <data name="OnlineSignatureLabel2.Text" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="&gt;&gt;SearchDBLabel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;OnlineSignatureGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PreviewSettingsGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 145</value>
+  </data>
+  <data name="&gt;&gt;SearchDBGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rbtFrenchLanguage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="rbtGermanLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 17</value>
+  </data>
+  <data name="&gt;&gt;SearchDBLabel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ActivateSearchDBCheckBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;OnlineSignatureLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="OnlineSignatureUpdateIntervallNumericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="rbtSpanishLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;rbtItalianLanguage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;downloadsComboBox.Name" xml:space="preserve">
+    <value>downloadsComboBox</value>
+  </data>
+  <data name="LoggingGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>634, 41</value>
+  </data>
+  <data name="lblPreviewPlayer.Text" xml:space="preserve">
+    <value>Media Player for preview (recommended: VLC or MPUI)</value>
+  </data>
+  <data name="writeLogCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="SearchDBLabel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>29, 13</value>
+  </data>
+  <data name="ActiveOnlineSignatureCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>142, 17</value>
+  </data>
+  <data name="SearchDBLabel2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;SearchDBCleanUpDaysNumericUpDown.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblPreviewPlayer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="SearchDBGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;rbtTurkishLanguage.Name" xml:space="preserve">
+    <value>rbtTurkishLanguage</value>
+  </data>
+  <data name="&gt;&gt;LoggingGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="ActivateSearchDBCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>176, 17</value>
+  </data>
+  <data name="&gt;&gt;SearchDBLabel2.Name" xml:space="preserve">
+    <value>SearchDBLabel2</value>
+  </data>
+  <data name="SearchDBLabel1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ActivateSearchDBCheckBox.Text" xml:space="preserve">
+    <value>Activate saving of searchresults</value>
+  </data>
+  <data name="&gt;&gt;writeLogCheckBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="downloadsComboBox.Items5" xml:space="preserve">
+    <value>12 Downloads -  1 Source (Most Downloads)</value>
+  </data>
+  <data name="&gt;&gt;btnBrowsePreviewPlayer.Parent" xml:space="preserve">
+    <value>PreviewSettingsGroupBox</value>
+  </data>
+  <data name="OnlineSignatureGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>314, 68</value>
+  </data>
+  <data name="lblPreviewPlayer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 13</value>
+  </data>
+  <data name="downloadsLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;ActiveOnlineSignatureCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="PreviewSettingsGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="rbtFrenchLanguage.Text" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="&gt;&gt;SearchDBCleanUpDaysNumericUpDown.Parent" xml:space="preserve">
+    <value>SearchDBGroupBox</value>
+  </data>
+  <data name="&gt;&gt;rbtSpanishLanguage.Name" xml:space="preserve">
+    <value>rbtSpanishLanguage</value>
+  </data>
+  <data name="&gt;&gt;lblPreviewPlayer.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ActiveOnlineSignatureCheckBox.Text" xml:space="preserve">
+    <value>Activate online signature</value>
+  </data>
+  <data name="downloadsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>634, 48</value>
+  </data>
+  <data name="rbtItalianLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 17</value>
+  </data>
+  <data name="SearchDBLabel2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;OnlineSignatureLabel1.Parent" xml:space="preserve">
+    <value>OnlineSignatureGroupBox</value>
+  </data>
+  <data name="rbtSpanishLanguage.Text" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="writeLogCheckBox.Text" xml:space="preserve">
+    <value>Write logfile</value>
+  </data>
+  <data name="OnlineSignatureLabel1.Text" xml:space="preserve">
+    <value>Update every</value>
+  </data>
+  <data name="PreviewSettingsGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>634, 61</value>
+  </data>
+  <data name="rbtSpanishLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>102, 65</value>
+  </data>
+  <data name="&gt;&gt;OnlineSignatureGroupBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;ActivateSearchDBCheckBox.Name" xml:space="preserve">
+    <value>ActivateSearchDBCheckBox</value>
+  </data>
+  <data name="rbtItalianLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="txtBoxPreviewPlayer.MaxLength" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="&gt;&gt;PreviewSettingsGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnBrowsePreviewPlayer.Name" xml:space="preserve">
+    <value>btnBrowsePreviewPlayer</value>
+  </data>
+  <data name="&gt;&gt;downloadsGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="downloadsComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>256, 21</value>
+  </data>
+  <data name="&gt;&gt;SearchDBGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="downloadsGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;rbtSpanishLanguage.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;OnlineSignatureUpdateIntervallNumericUpDown.Name" xml:space="preserve">
+    <value>OnlineSignatureUpdateIntervallNumericUpDown</value>
+  </data>
+  <data name="downloadsComboBox.Items4" xml:space="preserve">
+    <value> 6 Downloads -  2 Sources (Recommended)</value>
+  </data>
+  <data name="&gt;&gt;OnlineSignatureUpdateIntervallNumericUpDown.Parent" xml:space="preserve">
+    <value>OnlineSignatureGroupBox</value>
+  </data>
+  <data name="&gt;&gt;LoggingGroupBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="SearchDBLabel2.Text" xml:space="preserve">
+    <value>days</value>
+  </data>
+  <data name="OnlineSignatureLabel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>29, 44</value>
+  </data>
+  <data name="languageSettingsGroupBox.Text" xml:space="preserve">
+    <value>Language settings</value>
+  </data>
+  <data name="rbtEnglishLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="ActivateSearchDBCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 19</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>640, 480</value>
+  </data>
+  <metadata name="PreviewPlayerBrowseDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>

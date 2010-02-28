@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;previewParams_label.Name" xml:space="preserve">
+    <value>previewParams_label</value>
+  </data>
+  <data name="&gt;&gt;previewParams_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;previewParams_label.Parent" xml:space="preserve">
+    <value>preview_groupBox</value>
+  </data>
+  <data name="&gt;&gt;previewParams_label.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;previewPlayer_label.Name" xml:space="preserve">
+    <value>previewPlayer_label</value>
+  </data>
+  <data name="&gt;&gt;previewPlayer_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;previewPlayer_label.Parent" xml:space="preserve">
+    <value>preview_groupBox</value>
+  </data>
+  <data name="&gt;&gt;previewPlayer_label.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;browsePreviewPlayer_button.Name" xml:space="preserve">
+    <value>browsePreviewPlayer_button</value>
+  </data>
+  <data name="&gt;&gt;browsePreviewPlayer_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;browsePreviewPlayer_button.Parent" xml:space="preserve">
+    <value>preview_groupBox</value>
+  </data>
+  <data name="&gt;&gt;browsePreviewPlayer_button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;previewParameters_textbox.Name" xml:space="preserve">
+    <value>previewParameters_textbox</value>
+  </data>
+  <data name="&gt;&gt;previewParameters_textbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;previewParameters_textbox.Parent" xml:space="preserve">
+    <value>preview_groupBox</value>
+  </data>
+  <data name="&gt;&gt;previewParameters_textbox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;previewPlayer_textbox.Name" xml:space="preserve">
+    <value>previewPlayer_textbox</value>
+  </data>
+  <data name="&gt;&gt;previewPlayer_textbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;previewPlayer_textbox.Parent" xml:space="preserve">
+    <value>preview_groupBox</value>
+  </data>
+  <data name="&gt;&gt;previewPlayer_textbox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="preview_groupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 3</value>
+  </data>
+  <data name="preview_groupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 104</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="preview_groupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="preview_groupBox.Text" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="&gt;&gt;preview_groupBox.Name" xml:space="preserve">
+    <value>preview_groupBox</value>
+  </data>
+  <data name="&gt;&gt;preview_groupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;preview_groupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;preview_groupBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="previewParams_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="previewParams_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="previewParams_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 62</value>
+  </data>
+  <data name="previewParams_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 13</value>
+  </data>
+  <data name="previewParams_label.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="previewParams_label.Text" xml:space="preserve">
+    <value>Start parameters (%filename% is the variable for the file)</value>
+  </data>
+  <data name="&gt;&gt;previewParams_label.Name" xml:space="preserve">
+    <value>previewParams_label</value>
+  </data>
+  <data name="&gt;&gt;previewParams_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;previewParams_label.Parent" xml:space="preserve">
+    <value>preview_groupBox</value>
+  </data>
+  <data name="&gt;&gt;previewParams_label.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="previewPlayer_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="previewPlayer_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="previewPlayer_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="previewPlayer_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>267, 13</value>
+  </data>
+  <data name="previewPlayer_label.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="previewPlayer_label.Text" xml:space="preserve">
+    <value>Media Player for preview (recommended: VLC or MPUI)</value>
+  </data>
+  <data name="&gt;&gt;previewPlayer_label.Name" xml:space="preserve">
+    <value>previewPlayer_label</value>
+  </data>
+  <data name="&gt;&gt;previewPlayer_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;previewPlayer_label.Parent" xml:space="preserve">
+    <value>preview_groupBox</value>
+  </data>
+  <data name="&gt;&gt;previewPlayer_label.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="browsePreviewPlayer_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="browsePreviewPlayer_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 30</value>
+  </data>
+  <data name="browsePreviewPlayer_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="browsePreviewPlayer_button.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;browsePreviewPlayer_button.Name" xml:space="preserve">
+    <value>browsePreviewPlayer_button</value>
+  </data>
+  <data name="&gt;&gt;browsePreviewPlayer_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;browsePreviewPlayer_button.Parent" xml:space="preserve">
+    <value>preview_groupBox</value>
+  </data>
+  <data name="&gt;&gt;browsePreviewPlayer_button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="previewParameters_textbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 78</value>
+  </data>
+  <data name="previewParameters_textbox.MaxLength" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="previewParameters_textbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 20</value>
+  </data>
+  <data name="previewParameters_textbox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;previewParameters_textbox.Name" xml:space="preserve">
+    <value>previewParameters_textbox</value>
+  </data>
+  <data name="&gt;&gt;previewParameters_textbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;previewParameters_textbox.Parent" xml:space="preserve">
+    <value>preview_groupBox</value>
+  </data>
+  <data name="&gt;&gt;previewParameters_textbox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="previewPlayer_textbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 32</value>
+  </data>
+  <data name="previewPlayer_textbox.MaxLength" type="System.Int32, mscorlib">
+    <value>200</value>
+  </data>
+  <data name="previewPlayer_textbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>311, 20</value>
+  </data>
+  <data name="previewPlayer_textbox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;previewPlayer_textbox.Name" xml:space="preserve">
+    <value>previewPlayer_textbox</value>
+  </data>
+  <data name="&gt;&gt;previewPlayer_textbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;previewPlayer_textbox.Parent" xml:space="preserve">
+    <value>preview_groupBox</value>
+  </data>
+  <data name="&gt;&gt;previewPlayer_textbox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="&gt;&gt;closeToTray_checkBox.Name" xml:space="preserve">
+    <value>closeToTray_checkBox</value>
+  </data>
+  <data name="&gt;&gt;closeToTray_checkBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;closeToTray_checkBox.Parent" xml:space="preserve">
+    <value>misc_groupBox</value>
+  </data>
+  <data name="&gt;&gt;closeToTray_checkBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;format_checkBox.Name" xml:space="preserve">
+    <value>format_checkBox</value>
+  </data>
+  <data name="&gt;&gt;format_checkBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;format_checkBox.Parent" xml:space="preserve">
+    <value>misc_groupBox</value>
+  </data>
+  <data name="&gt;&gt;format_checkBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;messageWindow_checkBox.Name" xml:space="preserve">
+    <value>messageWindow_checkBox</value>
+  </data>
+  <data name="&gt;&gt;messageWindow_checkBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;messageWindow_checkBox.Parent" xml:space="preserve">
+    <value>misc_groupBox</value>
+  </data>
+  <data name="&gt;&gt;messageWindow_checkBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="misc_groupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 129</value>
+  </data>
+  <data name="misc_groupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 91</value>
+  </data>
+  <data name="misc_groupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="misc_groupBox.Text" xml:space="preserve">
+    <value>Misc</value>
+  </data>
+  <data name="&gt;&gt;misc_groupBox.Name" xml:space="preserve">
+    <value>misc_groupBox</value>
+  </data>
+  <data name="&gt;&gt;misc_groupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;misc_groupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;misc_groupBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="closeToTray_checkBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="closeToTray_checkBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="closeToTray_checkBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 66</value>
+  </data>
+  <data name="closeToTray_checkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 17</value>
+  </data>
+  <data name="closeToTray_checkBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="closeToTray_checkBox.Text" xml:space="preserve">
+    <value>Minimize to tray when closing</value>
+  </data>
+  <data name="&gt;&gt;closeToTray_checkBox.Name" xml:space="preserve">
+    <value>closeToTray_checkBox</value>
+  </data>
+  <data name="&gt;&gt;closeToTray_checkBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;closeToTray_checkBox.Parent" xml:space="preserve">
+    <value>misc_groupBox</value>
+  </data>
+  <data name="&gt;&gt;closeToTray_checkBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="format_checkBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="format_checkBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="format_checkBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 43</value>
+  </data>
+  <data name="format_checkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 17</value>
+  </data>
+  <data name="format_checkBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="format_checkBox.Text" xml:space="preserve">
+    <value>Use byte/s instead of bit/s</value>
+  </data>
+  <data name="&gt;&gt;format_checkBox.Name" xml:space="preserve">
+    <value>format_checkBox</value>
+  </data>
+  <data name="&gt;&gt;format_checkBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;format_checkBox.Parent" xml:space="preserve">
+    <value>misc_groupBox</value>
+  </data>
+  <data name="&gt;&gt;format_checkBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="messageWindow_checkBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="messageWindow_checkBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="messageWindow_checkBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="messageWindow_checkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 17</value>
+  </data>
+  <data name="messageWindow_checkBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="messageWindow_checkBox.Text" xml:space="preserve">
+    <value>Show message window</value>
+  </data>
+  <data name="&gt;&gt;messageWindow_checkBox.Name" xml:space="preserve">
+    <value>messageWindow_checkBox</value>
+  </data>
+  <data name="&gt;&gt;messageWindow_checkBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;messageWindow_checkBox.Parent" xml:space="preserve">
+    <value>misc_groupBox</value>
+  </data>
+  <data name="&gt;&gt;messageWindow_checkBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="browseSyndiePath_button.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="browseSyndiePath_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="browseSyndiePath_button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>323, 56</value>
+  </data>
+  <data name="browseSyndiePath_button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>22, 22</value>
+  </data>
+  <data name="browseSyndiePath_button.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;browseSyndiePath_button.Name" xml:space="preserve">
+    <value>browseSyndiePath_button</value>
+  </data>
+  <data name="&gt;&gt;browseSyndiePath_button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;browseSyndiePath_button.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;browseSyndiePath_button.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="syndieProgPath_textBox.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="syndieProgPath_textBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 58</value>
+  </data>
+  <data name="syndieProgPath_textBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>292, 20</value>
+  </data>
+  <data name="syndieProgPath_textBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;syndieProgPath_textBox.Name" xml:space="preserve">
+    <value>syndieProgPath_textBox</value>
+  </data>
+  <data name="&gt;&gt;syndieProgPath_textBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;syndieProgPath_textBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;syndieProgPath_textBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="PathtoSyndie_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="PathtoSyndie_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 41</value>
+  </data>
+  <data name="PathtoSyndie_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 13</value>
+  </data>
+  <data name="PathtoSyndie_label.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="PathtoSyndie_label.Text" xml:space="preserve">
+    <value>Syndie program path</value>
+  </data>
+  <data name="&gt;&gt;PathtoSyndie_label.Name" xml:space="preserve">
+    <value>PathtoSyndie_label</value>
+  </data>
+  <data name="&gt;&gt;PathtoSyndie_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PathtoSyndie_label.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;PathtoSyndie_label.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="showSyndie_checkbox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="showSyndie_checkbox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="showSyndie_checkbox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 20</value>
+  </data>
+  <data name="showSyndie_checkbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 17</value>
+  </data>
+  <data name="showSyndie_checkbox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="showSyndie_checkbox.Text" xml:space="preserve">
+    <value>Show Syndie button</value>
+  </data>
+  <data name="&gt;&gt;showSyndie_checkbox.Name" xml:space="preserve">
+    <value>showSyndie_checkbox</value>
+  </data>
+  <data name="&gt;&gt;showSyndie_checkbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;showSyndie_checkbox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;showSyndie_checkbox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 242</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>386, 91</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Shortcuts</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 395</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Name" xml:space="preserve">
+    <value>folderBrowserDialog</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Settings_MiscControl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

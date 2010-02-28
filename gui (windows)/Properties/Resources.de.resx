@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AlreadyActiveSearches" xml:space="preserve">
+    <value>Es gibt bereits {0} aktive Suchvorgänge!</value>
+  </data>
+  <data name="AlreadySearchWithThisPattern" xml:space="preserve">
+    <value>Eine Suche nach "{0}" existiert bereits!\n\nSoll erneut im Netzwerk gesucht werden?</value>
+  </data>
+  <data name="CancelDownload" xml:space="preserve">
+    <value>Sicher?</value>
+  </data>
+  <data name="Connections" xml:space="preserve">
+    <value>Verbindungen ({0})</value>
+  </data>
+  <data name="Date_Diff" xml:space="preserve">
+    <value>{0} T, {1:00}:{2:00}:{3:00}</value>
+  </data>
+  <data name="Date_Diff_Only_Days" xml:space="preserve">
+    <value>{0} T</value>
+  </data>
+  <data name="DownloadIsQueued" xml:space="preserve">
+    <value>wartet</value>
+  </data>
+  <data name="DownloadIsStarted" xml:space="preserve">
+    <value>gestartet</value>
+  </data>
+  <data name="Downloads" xml:space="preserve">
+    <value>Downloads ({0} von {1})</value>
+  </data>
+  <data name="GoingToClose" xml:space="preserve">
+    <value>Soll StealthNet wirklich beendet werden?</value>
+  </data>
+  <data name="InOutConnectionEstablished" xml:space="preserve">
+    <value>Eingehende/Ausgehende Verbindung hergestellt</value>
+  </data>
+  <data name="New" xml:space="preserve">
+    <value>Neu</value>
+  </data>
+  <data name="NewVersionDownloadLink" xml:space="preserve">
+    <value>http://www.stealthnet.de/download.php</value>
+  </data>
+  <data name="NewVersionMessage" xml:space="preserve">
+    <value>Eine neuere Version von StealthNet ist verfügbar.\nMöchten Sie diese downloaden?</value>
+  </data>
+  <data name="NoConnectionEstablished" xml:space="preserve">
+    <value>Keine Verbindung hergestellt. Verbinde…</value>
+  </data>
+  <data name="noDefindedPreviewPlayer" xml:space="preserve">
+    <value>Bitte zuerst einen Mediaplayer in den Einstellungen (Verschiedenes) definieren!</value>
+  </data>
+  <data name="NoNeededSectors" xml:space="preserve">
+    <value>Keine brauchbaren Sektoren</value>
+  </data>
+  <data name="OnlineSignatureActivation" xml:space="preserve">
+    <value>Aktiviere Onlinesignatur</value>
+  </data>
+  <data name="OutConnectionEstablished" xml:space="preserve">
+    <value>Ausgehende Verbindung hergestellt.
+Überprüfe deine Portweiterleitung, um auch eingehende Verbindungen herzustellen!</value>
+  </data>
+  <data name="RestartAfterChanges" xml:space="preserve">
+    <value>StealthNet muß neu gestartet werden, damit die Änderungen wirksam werden!</value>
+  </data>
+  <data name="Searches" xml:space="preserve">
+    <value>Suche ({0} von {1})</value>
+  </data>
+  <data name="SharedDirectories" xml:space="preserve">
+    <value>Freigegebene Verzeichnisse ({0})</value>
+  </data>
+  <data name="SharedFiles" xml:space="preserve">
+    <value>Freigegebene Dateien ({0} von {1})</value>
+  </data>
+  <data name="SourceQueuePositionUnknown" xml:space="preserve">
+    <value>unbekannt</value>
+  </data>
+  <data name="Statistics_Average" xml:space="preserve">
+    <value>Gesamtdurchschnitt</value>
+  </data>
+  <data name="Statistics_Average1Minute" xml:space="preserve">
+    <value>Durchschnitt letzte Minute</value>
+  </data>
+  <data name="Statistics_Connections" xml:space="preserve">
+    <value>Verbindungen: {0}</value>
+  </data>
+  <data name="Statistics_CountDownloads" xml:space="preserve">
+    <value>Anzahl Downloads: {0}</value>
+  </data>
+  <data name="Statistics_CountUploads" xml:space="preserve">
+    <value>Anzahl Uploads: {0}</value>
+  </data>
+  <data name="Statistics_Current" xml:space="preserve">
+    <value>Aktuell</value>
+  </data>
+  <data name="Statistics_Downloaded" xml:space="preserve">
+    <value>Heruntergeladen: {0}</value>
+  </data>
+  <data name="Statistics_SearchDBEntries" xml:space="preserve">
+    <value>Einträge: {0}</value>
+  </data>
+  <data name="Statistics_SearchDBFileSize" xml:space="preserve">
+    <value>Dateigröße: {0}</value>
+  </data>
+  <data name="Statistics_SearchDBFileSizeOfEntries" xml:space="preserve">
+    <value>Datenvolumen: {0}</value>
+  </data>
+  <data name="Statistics_SearchDBLastCleanUp" xml:space="preserve">
+    <value>Letztes Aufräumen: {0}</value>
+  </data>
+  <data name="Statistics_SearchDBLastCleanUpCount" xml:space="preserve">
+    <value>Einträge entfernt: {0}</value>
+  </data>
+  <data name="Statistics_Uploaded" xml:space="preserve">
+    <value>Hochgeladen: {0}</value>
+  </data>
+  <data name="Statistics_Uptime" xml:space="preserve">
+    <value>Online: {0} Tage, {1} Stunden, {2} Minuten, {3} Sekunden</value>
+  </data>
+  <data name="StealthNetIsClosing" xml:space="preserve">
+    <value>StealthNet {0} wird beendet…</value>
+  </data>
+  <data name="StealthNetIsLoading" xml:space="preserve">
+    <value>StealthNet {0} wird geladen…</value>
+  </data>
+  <data name="Today" xml:space="preserve">
+    <value>Heute</value>
+  </data>
+  <data name="TooManySearchDBResults" xml:space="preserve">
+    <value>        Datenbankergebnisse {0} von {1}. Bitte einen genaueren Suchbegriff eingeben.</value>
+  </data>
+  <data name="Uploads" xml:space="preserve">
+    <value>Uploads ({0} von {1}), In Warteschlange: {2}</value>
+  </data>
+  <data name="SourceState_Active" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="SourceState_NotNeeded" xml:space="preserve">
+    <value>Nicht benötigt</value>
+  </data>
+  <data name="SourceState_Requested" xml:space="preserve">
+    <value>Angefragt</value>
+  </data>
+  <data name="SourceState_Requesting" xml:space="preserve">
+    <value>Anfragend</value>
+  </data>
+  <data name="SourceState_Verified" xml:space="preserve">
+    <value>Überprüft</value>
+  </data>
+  <data name="SourceState_Verifying" xml:space="preserve">
+    <value>Überprüfend</value>
+  </data>
+  <data name="Swarming" xml:space="preserve">
+    <value>Swarming</value>
+  </data>
+  <data name="PortTestUrl" xml:space="preserve">
+    <value>http://www.stealthnet.de/porttest.php?port=</value>
+  </data>
+  <data name="ProgressBar_NoInfo" xml:space="preserve">
+    <value>Keine Informationen vorhanden!</value>
+  </data>
+  <data name="ProgressBar_NoSpace" xml:space="preserve">
+    <value>Kein freier Speicherplatz!</value>
+  </data>
+  <data name="ProgressBar_Preparing" xml:space="preserve">
+    <value>Vorbereitung läuft…</value>
+  </data>
+  <data name="ProgressBar_ZeroFilling" xml:space="preserve">
+    <value>Datei füllen…</value>
+  </data>
+  <data name="SearchState_Active" xml:space="preserve">
+    <value>Aktiv</value>
+  </data>
+  <data name="SearchState_Passive" xml:space="preserve">
+    <value>Passiv</value>
+  </data>
+</root>

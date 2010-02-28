@@ -1,0 +1,22 @@
+Date			What?																				Who		Version 0.8.7.4
+--------------------------------------------------------------------------------------------------------------------------------
+2009-11-01      Fixed: Exception in Download-Tab while moving downloads (BZ 138)                    T.Norad
+2009-10-24      Fixed: Crash while displaying more than 20.000 shared files (BZ 129)                T.Norad
+2009-10-09      Fixed: Exception in logfile on sorting in upload-tab (BZ 122)                       T.Norad
+2009-10-03		Fixed: Freeze-Bug in upload tab (BZ 121)											T.Norad
+				Language translations added/changed													T.Norad
+2009-09-27		Fixed: StealthNet start in tray mode (BZ 125)										T.Norad
+2009-09-26		Display "No Info" if no information available about the filename (BZ 123)			T.Norad
+
+Date			What?																				Who		Version 0.8.7.3
+--------------------------------------------------------------------------------------------------------------------------------
+2009-09-17		Language spanish added																T.Norad
+2009-09-12		Language translations added/changed													T.Norad
+2009-07-29		Introduced ApplicationContext														Lars
+2009-07-22		Mac OS X related bug fixed															Lars
+2009-07-18		Language translations added/changed		 											T.Norad
+2009-07-17		Italian porttest support added			 											T.Norad
+				"B/s" insted of "B" and so on														Lars
+				Core extracted to a seperate dll													T.Norad/Lars
+2009-07-16		DownloadInformation-Window resized (BZ 92)											T.Norad
+2009-07-15		Language translations added/changed													T.Norad

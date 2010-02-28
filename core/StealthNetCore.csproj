@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{46379556-11BA-45C8-97E9-C6FE5B233B76}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Regensburger.RShare</RootNamespace>
+    <AssemblyName>StealthNet.Core</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>stealthnet.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>false</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RAudioFileTags, Version=0.5.0.0, Culture=neutral, PublicKeyToken=1e50d8179530545d, processorArchitecture=MSIL" />
+    <Reference Include="RCollections, Version=0.9.0.0, Culture=neutral, PublicKeyToken=271b9689ba54a5ef, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Core\Collections\DownloadCollection.cs" />
+    <Compile Include="Core\Collections\DownloadMetaDataCollection.cs" />
+    <Compile Include="Core\Collections\DownloadSourceCollection.cs" />
+    <Compile Include="Core\Collections\DownloadSourceMetaDataCollection.cs" />
+    <Compile Include="Core\Collections\SearchResultCollection.cs" />
+    <Compile Include="Core\Collections\SearchResultMetaDataCollection.cs" />
+    <Compile Include="Core\Collections\SearchResultSourceCollection.cs" />
+    <Compile Include="Core\Collections\SearchResultSourceMetaDataCollection.cs" />
+    <Compile Include="Core\Collections\SharedFileCollection.cs" />
+    <Compile Include="Core\Connection.cs" />
+    <Compile Include="Core\Constants.cs" />
+    <Compile Include="Core\Core.cs" />
+    <Compile Include="Core\Core.Peer.cs" />
+    <Compile Include="Core\Cryptography\ComputeHashes.cs" />
+    <Compile Include="Core\Download.cs" />
+    <Compile Include="Core\Download.Source.cs" />
+    <Compile Include="Core\Download.SourceState.cs" />
+    <Compile Include="Core\ICoreSettings.cs" />
+    <Compile Include="Core\Logging\LogEntry.cs" />
+    <Compile Include="Core\Logging\Logger.cs" />
+    <Compile Include="Core\Preferences\DownloadsXmlWriter.cs" />
+    <Compile Include="Core\Preferences\StatisticsXmlWriter.cs" />
+    <Compile Include="Core\Protocol\Command.cs" />
+    <Compile Include="Core\Protocol\Command10.cs" />
+    <Compile Include="Core\Protocol\Command11.cs" />
+    <Compile Include="Core\Protocol\Command12.cs" />
+    <Compile Include="Core\Protocol\Command13.cs" />
+    <Compile Include="Core\Protocol\Command20.cs" />
+    <Compile Include="Core\Protocol\Command21.cs" />
+    <Compile Include="Core\Protocol\Command22.cs" />
+    <Compile Include="Core\Protocol\Command23.cs" />
+    <Compile Include="Core\Protocol\Command23.SearchResult.cs" />
+    <Compile Include="Core\Protocol\Command40.cs" />
+    <Compile Include="Core\Protocol\Command41.cs" />
+    <Compile Include="Core\Protocol\Command42.cs" />
+    <Compile Include="Core\Protocol\Command43.cs" />
+    <Compile Include="Core\Protocol\Command44.cs" />
+    <Compile Include="Core\Protocol\Command45.cs" />
+    <Compile Include="Core\Protocol\Command46.cs" />
+    <Compile Include="Core\Protocol\Command50.cs" />
+    <Compile Include="Core\Protocol\Command51.cs" />
+    <Compile Include="Core\Protocol\Command52.cs" />
+    <Compile Include="Core\Protocol\Command53.cs" />
+    <Compile Include="Core\Protocol\Command54.cs" />
+    <Compile Include="Core\Protocol\Command60.cs" />
+    <Compile Include="Core\Protocol\Command61.cs" />
+    <Compile Include="Core\Protocol\Command62.cs" />
+    <Compile Include="Core\Protocol\Command63.cs" />
+    <Compile Include="Core\Protocol\Command64.cs" />
+    <Compile Include="Core\Protocol\Command70.cs" />
+    <Compile Include="Core\Protocol\Command71.cs" />
+    <Compile Include="Core\Protocol\Command72.cs" />
+    <Compile Include="Core\Protocol\Command74.cs" />
+    <Compile Include="Core\Protocol\Command75.cs" />
+    <Compile Include="Core\Protocol\Command76.cs" />
+    <Compile Include="Core\Protocol\Command78.cs" />
+    <Compile Include="Core\Protocol\Command79.cs" />
+    <Compile Include="Core\Protocol\Command7A.cs" />
+    <Compile Include="Core\Protocol\CommandBuilder.cs" />
+    <Compile Include="Core\Protocol\CommandBuilder.EncryptionMethod.cs" />
+    <Compile Include="Core\Protocol\IRequestCommand.cs" />
+    <Compile Include="Core\Protocol\IResponseCommand.cs" />
+    <Compile Include="Core\Randomizer.cs" />
+    <Compile Include="Core\RijndaelParameters.cs" />
+    <Compile Include="Core\SearchDBManager.cs" />
+    <Compile Include="Core\SearchDBManager.NewSearchResult.cs" />
+    <Compile Include="Core\SearchDBManager.OldSearchResult.cs" />
+    <Compile Include="Core\SearchDBManager.SearchToStart.cs" />
+    <Compile Include="Core\Search\FileTypes\AnyFileType.cs" />
+    <Compile Include="Core\Search\FileTypes\ArchiveFileType.cs" />
+    <Compile Include="Core\Search\FileTypes\AudioFileType.cs" />
+    <Compile Include="Core\Search\FileTypes\CDImageFileType.cs" />
+    <Compile Include="Core\Search\FileTypes\DocumentFileType.cs" />
+    <Compile Include="Core\Search\FileTypes\FileType.cs" />
+    <Compile Include="Core\Search\FileTypes\ImageFileType.cs" />
+    <Compile Include="Core\Search\FileTypes\ProgramFileType.cs" />
+    <Compile Include="Core\Search\FileTypes\SNCollectionFileType.cs" />
+    <Compile Include="Core\Search\FileTypes\VideoFileType.cs" />
+    <Compile Include="Core\Search\Search.cs" />
+    <Compile Include="Core\Search\Search.Result.cs" />
+    <Compile Include="Core\Search\Search.Result.Source.cs" />
+    <Compile Include="Core\Settings.cs" />
+    <Compile Include="Core\SharedFile.cs" />
+    <Compile Include="Core\ShareManager.cs" />
+    <Compile Include="Core\ShareManager.MetaDataEntry.cs" />
+    <Compile Include="Core\ShareManager.SharedFileEntry.cs" />
+    <Compile Include="Core\UpdateWebServiceProxy.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Core\Upload.cs" />
+    <Compile Include="Core\Utils.cs" />
+    <Compile Include="Core\Util\ProcessStarter.cs" />
+    <Compile Include="Core\Util\StealthNetLink.cs" />
+    <Compile Include="Core\Util\UtilitiesForMono.cs" />
+    <Compile Include="Core\WebCacheProvider.cs" />
+    <Compile Include="Core\WebCacheWebServiceProxy.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Core.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.Core.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GNU General Public License.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="GNU Lesser General Public License.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="stealthnet.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documentation\ChangeLog.txt" />
+    <Content Include="RAudioFileTags.dll" />
+    <Content Include="RCollections.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.Core.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Core.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.Core.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.Core.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.Core.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.Core.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.Core.tr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

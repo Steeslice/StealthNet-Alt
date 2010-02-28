@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="downCapacityCon_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="downCapacityCon_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="downCapacityCon_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 24</value>
+  </data>
+  <data name="downCapacityCon_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="downCapacityCon_label.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="downCapacityCon_label.Text" xml:space="preserve">
+    <value>kBit/s</value>
+  </data>
+  <data name="&gt;&gt;downCapacityCon_label.Name" xml:space="preserve">
+    <value>downCapacityCon_label</value>
+  </data>
+  <data name="&gt;&gt;downCapacityCon_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;downCapacityCon_label.Parent" xml:space="preserve">
+    <value>downcapacity_groupBox</value>
+  </data>
+  <data name="&gt;&gt;downCapacityCon_label.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="downCapacity_numericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="downCapacity_numericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="downCapacity_numericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;downCapacity_numericUpDown.Name" xml:space="preserve">
+    <value>downCapacity_numericUpDown</value>
+  </data>
+  <data name="&gt;&gt;downCapacity_numericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;downCapacity_numericUpDown.Parent" xml:space="preserve">
+    <value>downcapacity_groupBox</value>
+  </data>
+  <data name="&gt;&gt;downCapacity_numericUpDown.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="downcapacity_groupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 117</value>
+  </data>
+  <data name="downcapacity_groupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 57</value>
+  </data>
+  <data name="downcapacity_groupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="downcapacity_groupBox.Text" xml:space="preserve">
+    <value>Download Capacity (KiBit/s)</value>
+  </data>
+  <data name="&gt;&gt;downcapacity_groupBox.Name" xml:space="preserve">
+    <value>downcapacity_groupBox</value>
+  </data>
+  <data name="&gt;&gt;downcapacity_groupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;downcapacity_groupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;downcapacity_groupBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;upCapacityCon_label.Name" xml:space="preserve">
+    <value>upCapacityCon_label</value>
+  </data>
+  <data name="&gt;&gt;upCapacityCon_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;upCapacityCon_label.Parent" xml:space="preserve">
+    <value>upcapacity_groupBox</value>
+  </data>
+  <data name="&gt;&gt;upCapacityCon_label.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;upCapacity_numericUpDown.Name" xml:space="preserve">
+    <value>upCapacity_numericUpDown</value>
+  </data>
+  <data name="&gt;&gt;upCapacity_numericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;upCapacity_numericUpDown.Parent" xml:space="preserve">
+    <value>upcapacity_groupBox</value>
+  </data>
+  <data name="&gt;&gt;upCapacity_numericUpDown.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="upcapacity_groupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 117</value>
+  </data>
+  <data name="upcapacity_groupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 57</value>
+  </data>
+  <data name="upcapacity_groupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="upcapacity_groupBox.Text" xml:space="preserve">
+    <value>Upload Capacity (KiBit/s)</value>
+  </data>
+  <data name="&gt;&gt;upcapacity_groupBox.Name" xml:space="preserve">
+    <value>upcapacity_groupBox</value>
+  </data>
+  <data name="&gt;&gt;upcapacity_groupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;upcapacity_groupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;upcapacity_groupBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="upCapacityCon_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="upCapacityCon_label.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="upCapacityCon_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 24</value>
+  </data>
+  <data name="upCapacityCon_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 13</value>
+  </data>
+  <data name="upCapacityCon_label.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="upCapacityCon_label.Text" xml:space="preserve">
+    <value>kBit/s</value>
+  </data>
+  <data name="&gt;&gt;upCapacityCon_label.Name" xml:space="preserve">
+    <value>upCapacityCon_label</value>
+  </data>
+  <data name="&gt;&gt;upCapacityCon_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;upCapacityCon_label.Parent" xml:space="preserve">
+    <value>upcapacity_groupBox</value>
+  </data>
+  <data name="&gt;&gt;upCapacityCon_label.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="upCapacity_numericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 22</value>
+  </data>
+  <data name="upCapacity_numericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="upCapacity_numericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;upCapacity_numericUpDown.Name" xml:space="preserve">
+    <value>upCapacity_numericUpDown</value>
+  </data>
+  <data name="&gt;&gt;upCapacity_numericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;upCapacity_numericUpDown.Parent" xml:space="preserve">
+    <value>upcapacity_groupBox</value>
+  </data>
+  <data name="&gt;&gt;upCapacity_numericUpDown.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_label.Name" xml:space="preserve">
+    <value>progressShadow_label</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_label.Parent" xml:space="preserve">
+    <value>progressbar_groupBox</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_label.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_numericUpDown.Name" xml:space="preserve">
+    <value>progressShadow_numericUpDown</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_numericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_numericUpDown.Parent" xml:space="preserve">
+    <value>progressbar_groupBox</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_numericUpDown.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;progressPercent_checkBox.Name" xml:space="preserve">
+    <value>progressPercent_checkBox</value>
+  </data>
+  <data name="&gt;&gt;progressPercent_checkBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressPercent_checkBox.Parent" xml:space="preserve">
+    <value>progressbar_groupBox</value>
+  </data>
+  <data name="&gt;&gt;progressPercent_checkBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_checkBox.Name" xml:space="preserve">
+    <value>progressShadow_checkBox</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_checkBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_checkBox.Parent" xml:space="preserve">
+    <value>progressbar_groupBox</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_checkBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="progressbar_groupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 3</value>
+  </data>
+  <data name="progressbar_groupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 92</value>
+  </data>
+  <data name="progressbar_groupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="progressbar_groupBox.Text" xml:space="preserve">
+    <value>Progressbars</value>
+  </data>
+  <data name="&gt;&gt;progressbar_groupBox.Name" xml:space="preserve">
+    <value>progressbar_groupBox</value>
+  </data>
+  <data name="&gt;&gt;progressbar_groupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressbar_groupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;progressbar_groupBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="progressShadow_label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="progressShadow_label.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="progressShadow_label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 67</value>
+  </data>
+  <data name="progressShadow_label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="progressShadow_label.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="progressShadow_label.Text" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_label.Name" xml:space="preserve">
+    <value>progressShadow_label</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_label.Parent" xml:space="preserve">
+    <value>progressbar_groupBox</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_label.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="progressShadow_numericUpDown.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="progressShadow_numericUpDown.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 65</value>
+  </data>
+  <data name="progressShadow_numericUpDown.Size" type="System.Drawing.Size, System.Drawing">
+    <value>34, 20</value>
+  </data>
+  <data name="progressShadow_numericUpDown.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_numericUpDown.Name" xml:space="preserve">
+    <value>progressShadow_numericUpDown</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_numericUpDown.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_numericUpDown.Parent" xml:space="preserve">
+    <value>progressbar_groupBox</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_numericUpDown.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="progressPercent_checkBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="progressPercent_checkBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 19</value>
+  </data>
+  <data name="progressPercent_checkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 17</value>
+  </data>
+  <data name="progressPercent_checkBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="progressPercent_checkBox.Text" xml:space="preserve">
+    <value>Show in percent</value>
+  </data>
+  <data name="&gt;&gt;progressPercent_checkBox.Name" xml:space="preserve">
+    <value>progressPercent_checkBox</value>
+  </data>
+  <data name="&gt;&gt;progressPercent_checkBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressPercent_checkBox.Parent" xml:space="preserve">
+    <value>progressbar_groupBox</value>
+  </data>
+  <data name="&gt;&gt;progressPercent_checkBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="progressShadow_checkBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="progressShadow_checkBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="progressShadow_checkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 17</value>
+  </data>
+  <data name="progressShadow_checkBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="progressShadow_checkBox.Text" xml:space="preserve">
+    <value>Enable shadow</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_checkBox.Name" xml:space="preserve">
+    <value>progressShadow_checkBox</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_checkBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_checkBox.Parent" xml:space="preserve">
+    <value>progressbar_groupBox</value>
+  </data>
+  <data name="&gt;&gt;progressShadow_checkBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="language_pictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 47</value>
+  </data>
+  <data name="language_pictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 39</value>
+  </data>
+  <data name="language_pictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;language_pictureBox.Name" xml:space="preserve">
+    <value>language_pictureBox</value>
+  </data>
+  <data name="&gt;&gt;language_pictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;language_pictureBox.Parent" xml:space="preserve">
+    <value>language_groupBox</value>
+  </data>
+  <data name="&gt;&gt;language_pictureBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="language_comboBox.Items" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="language_comboBox.Items1" xml:space="preserve">
+    <value>Deutsch</value>
+  </data>
+  <data name="language_comboBox.Items2" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="language_comboBox.Items3" xml:space="preserve">
+    <value>Türçe</value>
+  </data>
+  <data name="language_comboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="language_comboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 21</value>
+  </data>
+  <data name="language_comboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;language_comboBox.Name" xml:space="preserve">
+    <value>language_comboBox</value>
+  </data>
+  <data name="&gt;&gt;language_comboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;language_comboBox.Parent" xml:space="preserve">
+    <value>language_groupBox</value>
+  </data>
+  <data name="&gt;&gt;language_comboBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="language_groupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>202, 3</value>
+  </data>
+  <data name="language_groupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 92</value>
+  </data>
+  <data name="language_groupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="language_groupBox.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="&gt;&gt;language_groupBox.Name" xml:space="preserve">
+    <value>language_groupBox</value>
+  </data>
+  <data name="&gt;&gt;language_groupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;language_groupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;language_groupBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="folderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>395, 395</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Name" xml:space="preserve">
+    <value>folderBrowserDialog</value>
+  </data>
+  <data name="&gt;&gt;folderBrowserDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Settings_InterfaceCtrl</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

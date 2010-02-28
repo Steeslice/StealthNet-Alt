@@ -1,0 +1,957 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E94DBC89-7791-463A-8D0F-7BD3EAA8ABAB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Regensburger.RShare</RootNamespace>
+    <AssemblyName>StealthNet</AssemblyName>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>stealthnet.snk</AssemblyOriginatorKeyFile>
+    <TargetZone>LocalIntranet</TargetZone>
+    <GenerateManifests>false</GenerateManifests>
+    <StartupObject>
+    </StartupObject>
+    <ApplicationIcon>StealthNet.ico</ApplicationIcon>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DocumentationFile>
+    </DocumentationFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <FileAlignment>512</FileAlignment>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn>
+    </NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DocumentationFile>
+    </DocumentationFile>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <FileAlignment>512</FileAlignment>
+    <DebugSymbols>false</DebugSymbols>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <NoWarn>
+    </NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="RAudioFileTags, Version=0.5.0.0, Culture=neutral, PublicKeyToken=1e50d8179530545d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="RCollections, Version=0.9.0.0, Culture=neutral, PublicKeyToken=271b9689ba54a5ef, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Compile Include="GUI\CoreSettings.cs" />
+    <Compile Include="GUI\Program.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI\CloseToTrayDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CloseToTrayDialog.Designer.cs">
+      <DependentUpon>CloseToTrayDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ConnectDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ConnectDialog.Designer.cs">
+      <DependentUpon>ConnectDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ConnectionsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\ConnectionsControl.Designer.cs">
+      <DependentUpon>ConnectionsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DoubleBufferedDataGridView.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\DownloadDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DownloadDialog.Designer.cs">
+      <DependentUpon>DownloadDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DownloadsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\DownloadsControl.Designer.cs">
+      <DependentUpon>DownloadsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Download\DownloadInformationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Download\DownloadInformationControl.Designer.cs">
+      <DependentUpon>DownloadInformationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Download\DownloadInformationDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Download\DownloadInformationDialog.Designer.cs">
+      <DependentUpon>DownloadInformationDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Download\DownloadSourcesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Download\DownloadSourcesControl.Designer.cs">
+      <DependentUpon>DownloadSourcesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\GraphsControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\GraphsControl.Graph.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\IsClosingDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\IsClosingDialog.Designer.cs">
+      <DependentUpon>IsClosingDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\IsLoadingDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\IsLoadingDialog.Designer.cs">
+      <DependentUpon>IsLoadingDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Preferences\AboutControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Preferences\AboutControl.Designer.cs">
+      <DependentUpon>AboutControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Preferences\DirectoriesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Preferences\DirectoriesControl.Designer.cs">
+      <DependentUpon>DirectoriesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Preferences\MiscControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Preferences\MiscControl.Designer.cs">
+      <DependentUpon>MiscControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Preferences\PreferencesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\Preferences\PreferencesControl.Designer.cs">
+      <DependentUpon>PreferencesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Preferences\PreferencesDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Preferences\PreferencesDialog.Designer.cs">
+      <DependentUpon>PreferencesDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ProgressBars.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI\QuickInformationDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\QuickInformationDialog.Designer.cs">
+      <DependentUpon>QuickInformationDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\RandomTag.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI\Registry\RegistryHelper.cs" />
+    <Compile Include="GUI\SearchControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\SearchControl.Designer.cs">
+      <DependentUpon>SearchControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SearchResult\SearchResultInformationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\SearchResult\SearchResultInformationControl.Designer.cs">
+      <DependentUpon>SearchResultInformationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SearchResult\SearchResultInformationDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\SearchResult\SearchResultInformationDialog.Designer.cs">
+      <DependentUpon>SearchResultInformationDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SearchResult\SearchResultSourcesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\SearchResult\SearchResultSourcesControl.Designer.cs">
+      <DependentUpon>SearchResultSourcesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SharedFilesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\SharedFilesControl.Designer.cs">
+      <DependentUpon>SharedFilesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SharedFile\SharedFileInformationControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\SharedFile\SharedFileInformationControl.Designer.cs">
+      <DependentUpon>SharedFileInformationControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SharedFile\SharedFileInformationDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\SharedFile\SharedFileInformationDialog.Designer.cs">
+      <DependentUpon>SharedFileInformationDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ShellIcon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GUI\SplashProvider.cs" />
+    <Compile Include="GUI\StatisticsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\StatisticsControl.Designer.cs">
+      <DependentUpon>StatisticsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SubFolderDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\SubFolderDialog.designer.cs">
+      <DependentUpon>SubFolderDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\UploadsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GUI\UploadsControl.Designer.cs">
+      <DependentUpon>UploadsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Util\SortHelper.cs" />
+    <Compile Include="GUI\Util\Win32APIWrapper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\CloseToTrayDialog.de.resx">
+      <DependentUpon>CloseToTrayDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CloseToTrayDialog.es.resx">
+      <DependentUpon>CloseToTrayDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CloseToTrayDialog.fr.resx">
+      <DependentUpon>CloseToTrayDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CloseToTrayDialog.it.resx">
+      <DependentUpon>CloseToTrayDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CloseToTrayDialog.resx">
+      <DependentUpon>CloseToTrayDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CloseToTrayDialog.tr.resx">
+      <DependentUpon>CloseToTrayDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ConnectDialog.de.resx">
+      <DependentUpon>ConnectDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ConnectDialog.es.resx">
+      <DependentUpon>ConnectDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ConnectDialog.fr.resx">
+      <DependentUpon>ConnectDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ConnectDialog.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ConnectDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ConnectDialog.resx">
+      <DependentUpon>ConnectDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ConnectDialog.tr.resx">
+      <DependentUpon>ConnectDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ConnectionsControl.de.resx">
+      <DependentUpon>ConnectionsControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ConnectionsControl.es.resx">
+      <DependentUpon>ConnectionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ConnectionsControl.fr.resx">
+      <DependentUpon>ConnectionsControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ConnectionsControl.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ConnectionsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ConnectionsControl.resx">
+      <DependentUpon>ConnectionsControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ConnectionsControl.tr.resx">
+      <DependentUpon>ConnectionsControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DownloadDialog.de.resx">
+      <DependentUpon>DownloadDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DownloadDialog.es.resx">
+      <DependentUpon>DownloadDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DownloadDialog.fr.resx">
+      <DependentUpon>DownloadDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DownloadDialog.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DownloadDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DownloadDialog.resx">
+      <DependentUpon>DownloadDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DownloadDialog.tr.resx">
+      <DependentUpon>DownloadDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DownloadsControl.de.resx">
+      <DependentUpon>DownloadsControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DownloadsControl.es.resx">
+      <DependentUpon>DownloadsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DownloadsControl.fr.resx">
+      <DependentUpon>DownloadsControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DownloadsControl.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DownloadsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DownloadsControl.resx">
+      <DependentUpon>DownloadsControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DownloadsControl.tr.resx">
+      <DependentUpon>DownloadsControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Download\DownloadInformationControl.de.resx">
+      <DependentUpon>DownloadInformationControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Download\DownloadInformationControl.es.resx">
+      <DependentUpon>DownloadInformationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Download\DownloadInformationControl.fr.resx">
+      <DependentUpon>DownloadInformationControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Download\DownloadInformationControl.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DownloadInformationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Download\DownloadInformationControl.resx">
+      <DependentUpon>DownloadInformationControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Download\DownloadInformationControl.tr.resx">
+      <DependentUpon>DownloadInformationControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Download\DownloadInformationDialog.de.resx">
+      <DependentUpon>DownloadInformationDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Download\DownloadInformationDialog.es.resx">
+      <DependentUpon>DownloadInformationDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Download\DownloadInformationDialog.fr.resx">
+      <DependentUpon>DownloadInformationDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Download\DownloadInformationDialog.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DownloadInformationDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Download\DownloadInformationDialog.resx">
+      <DependentUpon>DownloadInformationDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Download\DownloadInformationDialog.tr.resx">
+      <DependentUpon>DownloadInformationDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Download\DownloadSourcesControl.de.resx">
+      <DependentUpon>DownloadSourcesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Download\DownloadSourcesControl.es.resx">
+      <DependentUpon>DownloadSourcesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Download\DownloadSourcesControl.fr.resx">
+      <DependentUpon>DownloadSourcesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Download\DownloadSourcesControl.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DownloadSourcesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Download\DownloadSourcesControl.resx">
+      <DependentUpon>DownloadSourcesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Download\DownloadSourcesControl.tr.resx">
+      <DependentUpon>DownloadSourcesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\IsClosingDialog.resx">
+      <DependentUpon>IsClosingDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\IsLoadingDialog.resx">
+      <DependentUpon>IsLoadingDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainForm.de.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainForm.es.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainForm.fr.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainForm.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\MainForm.tr.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\AboutControl.es.resx">
+      <DependentUpon>AboutControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\AboutControl.fr.resx">
+      <DependentUpon>AboutControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\AboutControl.resx">
+      <DependentUpon>AboutControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\DirectoriesControl.de.resx">
+      <DependentUpon>DirectoriesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\DirectoriesControl.es.resx">
+      <DependentUpon>DirectoriesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\DirectoriesControl.fr.resx">
+      <DependentUpon>DirectoriesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\DirectoriesControl.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>DirectoriesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\DirectoriesControl.resx">
+      <DependentUpon>DirectoriesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\DirectoriesControl.tr.resx">
+      <DependentUpon>DirectoriesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\MiscControl.de.resx">
+      <DependentUpon>MiscControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\MiscControl.es.resx">
+      <DependentUpon>MiscControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\MiscControl.fr.resx">
+      <DependentUpon>MiscControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\MiscControl.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MiscControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\MiscControl.resx">
+      <DependentUpon>MiscControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\MiscControl.tr.resx">
+      <DependentUpon>MiscControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\PreferencesControl.de.resx">
+      <DependentUpon>PreferencesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\PreferencesControl.en.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PreferencesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\PreferencesControl.es.resx">
+      <DependentUpon>PreferencesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\PreferencesControl.fr.resx">
+      <DependentUpon>PreferencesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\PreferencesControl.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PreferencesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\PreferencesControl.resx">
+      <DependentUpon>PreferencesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\PreferencesControl.tr.resx">
+      <DependentUpon>PreferencesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\PreferencesDialog.de.resx">
+      <DependentUpon>PreferencesDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\PreferencesDialog.es.resx">
+      <DependentUpon>PreferencesDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\PreferencesDialog.fr.resx">
+      <DependentUpon>PreferencesDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\PreferencesDialog.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>PreferencesDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\PreferencesDialog.resx">
+      <DependentUpon>PreferencesDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Preferences\PreferencesDialog.tr.resx">
+      <DependentUpon>PreferencesDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QuickInformationDialog.es.resx">
+      <DependentUpon>QuickInformationDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QuickInformationDialog.fr.resx">
+      <DependentUpon>QuickInformationDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QuickInformationDialog.it.resx">
+      <DependentUpon>QuickInformationDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QuickInformationDialog.resx">
+      <DependentUpon>QuickInformationDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\QuickInformationDialog.tr.resx">
+      <DependentUpon>QuickInformationDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchControl.de.resx">
+      <DependentUpon>SearchControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchControl.es.resx">
+      <DependentUpon>SearchControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchControl.fr.resx">
+      <DependentUpon>SearchControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchControl.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SearchControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchControl.resx">
+      <DependentUpon>SearchControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchControl.tr.resx">
+      <DependentUpon>SearchControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchResult\SearchResultInformationControl.de.resx">
+      <DependentUpon>SearchResultInformationControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchResult\SearchResultInformationControl.es.resx">
+      <DependentUpon>SearchResultInformationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchResult\SearchResultInformationControl.fr.resx">
+      <DependentUpon>SearchResultInformationControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchResult\SearchResultInformationControl.it.resx">
+      <DependentUpon>SearchResultInformationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchResult\SearchResultInformationControl.resx">
+      <DependentUpon>SearchResultInformationControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchResult\SearchResultInformationControl.tr.resx">
+      <DependentUpon>SearchResultInformationControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchResult\SearchResultInformationDialog.de.resx">
+      <DependentUpon>SearchResultInformationDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchResult\SearchResultInformationDialog.es.resx">
+      <DependentUpon>SearchResultInformationDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchResult\SearchResultInformationDialog.fr.resx">
+      <DependentUpon>SearchResultInformationDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchResult\SearchResultInformationDialog.it.resx">
+      <DependentUpon>SearchResultInformationDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchResult\SearchResultInformationDialog.resx">
+      <DependentUpon>SearchResultInformationDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchResult\SearchResultInformationDialog.tr.resx">
+      <DependentUpon>SearchResultInformationDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchResult\SearchResultSourcesControl.de.resx">
+      <DependentUpon>SearchResultSourcesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchResult\SearchResultSourcesControl.es.resx">
+      <DependentUpon>SearchResultSourcesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchResult\SearchResultSourcesControl.fr.resx">
+      <DependentUpon>SearchResultSourcesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchResult\SearchResultSourcesControl.it.resx">
+      <DependentUpon>SearchResultSourcesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchResult\SearchResultSourcesControl.resx">
+      <DependentUpon>SearchResultSourcesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SearchResult\SearchResultSourcesControl.tr.resx">
+      <DependentUpon>SearchResultSourcesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SharedFilesControl.de.resx">
+      <DependentUpon>SharedFilesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SharedFilesControl.es.resx">
+      <DependentUpon>SharedFilesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SharedFilesControl.fr.resx">
+      <DependentUpon>SharedFilesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SharedFilesControl.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SharedFilesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SharedFilesControl.resx">
+      <DependentUpon>SharedFilesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SharedFilesControl.tr.resx">
+      <DependentUpon>SharedFilesControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SharedFile\SharedFileInformationControl.de.resx">
+      <DependentUpon>SharedFileInformationControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SharedFile\SharedFileInformationControl.es.resx">
+      <DependentUpon>SharedFileInformationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SharedFile\SharedFileInformationControl.fr.resx">
+      <DependentUpon>SharedFileInformationControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SharedFile\SharedFileInformationControl.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SharedFileInformationControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SharedFile\SharedFileInformationControl.resx">
+      <DependentUpon>SharedFileInformationControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SharedFile\SharedFileInformationControl.tr.resx">
+      <DependentUpon>SharedFileInformationControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SharedFile\SharedFileInformationDialog.de.resx">
+      <DependentUpon>SharedFileInformationDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SharedFile\SharedFileInformationDialog.es.resx">
+      <DependentUpon>SharedFileInformationDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SharedFile\SharedFileInformationDialog.fr.resx">
+      <DependentUpon>SharedFileInformationDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SharedFile\SharedFileInformationDialog.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>SharedFileInformationDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SharedFile\SharedFileInformationDialog.resx">
+      <DependentUpon>SharedFileInformationDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SharedFile\SharedFileInformationDialog.tr.resx">
+      <DependentUpon>SharedFileInformationDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\StatisticsControl.de.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StatisticsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\StatisticsControl.es.resx">
+      <DependentUpon>StatisticsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\StatisticsControl.fr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StatisticsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\StatisticsControl.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StatisticsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\StatisticsControl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StatisticsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\StatisticsControl.tr.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>StatisticsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SubFolderDialog.de.resx">
+      <DependentUpon>SubFolderDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SubFolderDialog.es.resx">
+      <DependentUpon>SubFolderDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SubFolderDialog.fr.resx">
+      <DependentUpon>SubFolderDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SubFolderDialog.resx">
+      <DependentUpon>SubFolderDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SubFolderDialog.tr.resx">
+      <DependentUpon>SubFolderDialog.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UploadsControl.de.resx">
+      <DependentUpon>UploadsControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UploadsControl.es.resx">
+      <DependentUpon>UploadsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UploadsControl.fr.resx">
+      <DependentUpon>UploadsControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UploadsControl.it.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>UploadsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UploadsControl.resx">
+      <DependentUpon>UploadsControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\UploadsControl.tr.resx">
+      <DependentUpon>UploadsControl.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.fr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.de.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.tr.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.it.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.es.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="GNU General Public License.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="GNU Lesser General Public License.rtf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\accessible_16x16.png" />
+    <None Include="Resources\application_lightning.png" />
+    <None Include="Resources\application_side_tree.png" />
+    <None Include="Resources\application_xp.png" />
+    <None Include="Resources\arrow_inout.png" />
+    <None Include="Resources\building_go.png" />
+    <None Include="Resources\closetotray_48x48.png" />
+    <None Include="Resources\connections_16x16.png" />
+    <None Include="Resources\connections_24x24.png" />
+    <None Include="Resources\connection_16x16.png" />
+    <None Include="Resources\directories_16x16.png" />
+    <None Include="Resources\directories_24x24.png" />
+    <None Include="Resources\directory_16x16.png" />
+    <None Include="Resources\directory_24x24.png" />
+    <None Include="Resources\download_16x16.png" />
+    <None Include="Resources\download_24x24.png" />
+    <None Include="Resources\downstream_16x16.png" />
+    <None Include="Resources\error_16x16.png" />
+    <None Include="Resources\information_16x16.png" />
+    <None Include="Resources\information_24x24.png" />
+    <None Include="Resources\next_24x24.png" />
+    <None Include="Resources\notaccessible_16x16.png" />
+    <None Include="Resources\peer0_16x16.png" />
+    <None Include="Resources\peer1_16x16.png" />
+    <None Include="Resources\peer2_16x16.png" />
+    <None Include="Resources\peer3_16x16.png" />
+    <None Include="Resources\peer4_16x16.png" />
+    <None Include="Resources\peer_16x16.png" />
+    <None Include="Resources\peer_24x24.png" />
+    <None Include="Resources\play_16x16.png" />
+    <None Include="Resources\preferences_16x16.png" />
+    <None Include="Resources\preferences_24x24.png" />
+    <None Include="Resources\previous_24x24.png" />
+    <None Include="Resources\rating0_16x16.png" />
+    <None Include="Resources\rating1_16x16.png" />
+    <None Include="Resources\rating2_16x16.png" />
+    <None Include="Resources\rating3_16x16.png" />
+    <None Include="Resources\remove_16x16.png" />
+    <None Include="Resources\restore_16x16.png" />
+    <None Include="Resources\rshare_135x135.png" />
+    <None Include="Resources\search_16x16.png" />
+    <None Include="Resources\search_24x24.png" />
+    <None Include="Resources\splashscreenStealthNet.jpg" />
+    <None Include="Resources\statistics_24x24.png" />
+    <None Include="Resources\stealthnet_135x135.jpg" />
+    <None Include="Resources\upload_16x16.png" />
+    <None Include="Resources\upload_24x24.png" />
+    <None Include="Resources\upstream_16x16.png" />
+    <None Include="Resources\warning_16x16.png" />
+    <None Include="Resources\worldaccessible_16x16.png" />
+    <None Include="Resources\zoom.png" />
+    <None Include="Resources\zoom_in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documentation\ChangeLog.txt" />
+    <Content Include="RAudioFileTags.dll" />
+    <Content Include="RCollections.dll" />
+    <Content Include="Resources\directory_add_16x16.png" />
+    <Content Include="Resources\directory_remove_16x16.png" />
+    <None Include="Resources\downstream_limited_16x16.png" />
+    <Content Include="Resources\flag_en_32x48.png" />
+    <Content Include="Resources\flag_france_32x48.png" />
+    <Content Include="Resources\flag_germany_32x48.png" />
+    <Content Include="Resources\flag_turkey_32x46.png" />
+    <Content Include="Resources\misc_16x16.png" />
+    <None Include="Resources\refresh_16x16.png" />
+    <None Include="Resources\upstream_limited_16x16.png" />
+    <None Include="stealthnet.snk" />
+    <Content Include="RShare.ico" />
+    <Content Include="StealthNet.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\core\StealthNetCore.csproj">
+      <Project>{46379556-11BA-45C8-97E9-C6FE5B233B76}</Project>
+      <Name>StealthNetCore</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

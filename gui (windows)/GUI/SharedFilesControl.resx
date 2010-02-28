@@ -1,0 +1,645 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="searchButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="Album.HeaderText" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="sharedFilesDataGridView.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Artist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="columnComboBox.Items4" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="copyLinkToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="columnComboBox.Items2" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <data name="&gt;&gt;Album.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="maxSearchCountLabel.Text" xml:space="preserve">
+    <value>Attention: More than 2500 search results found, please narrow down the search term…</value>
+  </data>
+  <data name="searchButton.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="maxSearchCountLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 43</value>
+  </data>
+  <data name="openFileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="&gt;&gt;maxSearchCountLabel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="openDirectoryToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="&gt;&gt;searchGroupBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Icon.Name" xml:space="preserve">
+    <value>Icon</value>
+  </data>
+  <data name="&gt;&gt;FileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;copyLinkHTMLToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sharedFilesContextMenuStrip.Name" xml:space="preserve">
+    <value>sharedFilesContextMenuStrip</value>
+  </data>
+  <data name="&gt;&gt;Directory.Name" xml:space="preserve">
+    <value>Directory</value>
+  </data>
+  <data name="&gt;&gt;sharedFilesLabel.Name" xml:space="preserve">
+    <value>sharedFilesLabel</value>
+  </data>
+  <data name="maxSearchCountLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="searchGroupBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="showInformationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="Artist.HeaderText" xml:space="preserve">
+    <value>Artist</value>
+  </data>
+  <data name="lastRequest.HeaderText" xml:space="preserve">
+    <value>Last Request</value>
+  </data>
+  <data name="&gt;&gt;sharedFilesDataGridView.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="columnComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="&gt;&gt;maxSearchCountLabel.Name" xml:space="preserve">
+    <value>maxSearchCountLabel</value>
+  </data>
+  <data name="&gt;&gt;searchButton.Name" xml:space="preserve">
+    <value>searchButton</value>
+  </data>
+  <data name="showInformationToolStripMenuItem.Text" xml:space="preserve">
+    <value>Show Information</value>
+  </data>
+  <data name="&gt;&gt;Title.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="searchTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="copyLinkToolStripMenuItem.Text" xml:space="preserve">
+    <value>Copy Link</value>
+  </data>
+  <data name="&gt;&gt;sharedFilesDataGridView.Type" xml:space="preserve">
+    <value>Regensburger.RShare.DoubleBufferedDataGridView, StealthNet, Version=0.8.7.4, Culture=neutral, PublicKeyToken=4e32abcf5e170f40</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="&gt;&gt;searchGroupBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;sharedFilesContextMenuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FileSize.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="maxSearchCountLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>411, 13</value>
+  </data>
+  <data name="showInformationToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK+wAA
+        CvsBy58dkAAAAohJREFUOE+tU11Ik2EYfeoirC4mzYQIvLGiwosM1p9SFwbqXFpiuMJIR5H5l9YcWFFE
+        C+timFCpoUgjCS3FjKBvbSqWP2laqbO5LJ0LSssNZGr66U7PlDYk68oPDu/H973nPOc5z/sSLfujbA2i
+        BJNu9ek2S0B2l7gu8+2MX1JjDynqtBQlBP6/nsqSLNX0uaLrZhDbAIRUzmHD/UmsL3RCcvULVipNDkp4
+        E7u0iGogOTh/yJ3SDGypBii7H5KsTkg0ZqzNs4Iu2UF5QyClSaRDLTGLRY61BUnVvS5VCyDVM7mYRS6+
+        g9sxCNFpx5OOryCNjTEAOt8PkteOUsRjf59IvFEnr55ESJUbdG+O4Uaw1gpxfBRT405U9k0weRikZifn
+        zKCkJtD+h7leAb+U15bjhllQAW+8PcXrFDbrhoFZF4A51PEr5bKDnI+gjG6Qqg0Urm/0CgSkd4jhjyZB
+        N52gW4x8B7be/cFkkQEI31gg5/NC9fQPoBOvQAcq7F4BaWrL9PaSMdC176DrI/NrYJELdyxAgRk41eoR
+        +LRATu0CJRpBYfphXwvKlz2bCpl4mfucByeeaYV/Rjt23OgDpVlAZ5l8pnPBftxzkKzU4Asxska78Qqn
+        q2GbnqTVA4jWtgPTP7mBCZgdHG4m//eQEwygg1Wg0KJ0n0CUIXDVUcGx4gJvmg/KjMPFViZ7QgRsM9xC
+        Bn9PNIFinoJ2ldlod8WaxWdB0RRL8YJIWb1s+T3b7ca2ojHE1f7iCQyCjrzwzB+078EEyarDlj6NcqOc
+        ImtGSFkPOtnMFRuYKIAUz0ARlVy51Eaymn+Q/0jKBAmFlalpT3k9z9pGe8uHaGeJQKHFaX/bXoar/Bvc
+        0ZBbx4O90QAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="searchButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="copyLinkToClipboardMenuItem.Text" xml:space="preserve">
+    <value>Copy Link to clipboard</value>
+  </data>
+  <data name="&gt;&gt;createCollectionToolStripMenuItem.Name" xml:space="preserve">
+    <value>createCollectionToolStripMenuItem</value>
+  </data>
+  <data name="searchButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>708, 19</value>
+  </data>
+  <data name="&gt;&gt;copyLinkToClipboardMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="copyLinkHTMLToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="sharedFilesLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="sharedFilesPictureBox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK+wAA
+        CvsBy58dkAAAAitJREFUOE+9kl1okmEUx0+toItBXXTRTdDtLhZFu9ouCqIualddjC76IGoE1WqzQpIy
+        Zmnl+rBlEH2wj1wLZ6RR6laJZdjSjS23G7eZ5dwkSV+tqZu++e8oFG+BjSD2wJ/3eTnn93/O4RyihToD
+        rdTXqyHYzhOeqQjdMrr3T287WiidTcfw81iUhL8a+Nuppv86Kd06sr7S0oBTt1L8RfOlpIHnBvkHu9Zj
+        xLwNocFzSAvDEMVpRpKswvcD6xseny5RgfMKccJX5DL9SEZ6MD3ajODbwwi66zH+ei/HRlgRmE5JDFzX
+        Fudc+hX5wBslXmoJqZgL0XEFhEk1ZhOtQPYuMKtHxFePuRkjG4zBKJcYOFoWJbIpT7HM5xcLFUywOoAc
+        g3N6IHMZSKuBlBJB726OvUf3CYnBC+0ST3SihwNTKIyqkIDvV/nlSwyqgBkFt30cSBzB5LtajhvRJZMY
+        9F2g294Hm7NAoDhniE6G5FxQIyAcAr7sB6K7gM87kQ/XITZ2AJ3HJAZ2NdX1qspiuZQVT5vZIGNmaE8R
+        QGQHEN4OhLYAH1mhrUgMbUR7wx9TsGuWmd1tNXhylg2SbcVEfNrEUDWriv83ID5ciYBlDayacnQcpfBv
+        i8TgQbt2lWg+wwaCjqF1DFUg7l0Nn2E5bOqleZOc4g+byFZyAx0314qPFISMvxa+++XcTploOklTRhlZ
+        nCqqmHf3vbeq9nFvgqGJgoZGujMv8D8SfgCE5qyhcM+pqgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="maxSearchCountLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="copyLinkHTMLToolStripMenuItem.Text" xml:space="preserve">
+    <value>Copy Link (HTML)</value>
+  </data>
+  <data name="&gt;&gt;searchButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;searchButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sharedFilesLabel.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;maxSearchCountLabel.Parent" xml:space="preserve">
+    <value>searchGroupBox</value>
+  </data>
+  <data name="Title.HeaderText" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="&gt;&gt;copyLinkToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="maxSearchCountLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="createCollectionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="&gt;&gt;sharedFilesLabel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;columnComboBox.Name" xml:space="preserve">
+    <value>columnComboBox</value>
+  </data>
+  <data name="searchGroupBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>794, 63</value>
+  </data>
+  <data name="sharedFilesContextMenuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>191, 114</value>
+  </data>
+  <data name="sharedFilesPictureBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="sharedFilesDataGridView.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 94</value>
+  </data>
+  <data name="openFileToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;searchTextBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;sharedFilesPictureBox.Name" xml:space="preserve">
+    <value>sharedFilesPictureBox</value>
+  </data>
+  <data name="columnComboBox.Items" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+  <data name="sharedFilesDataGridView.ColumnHeadersHeight" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SharedFilesControl</value>
+  </data>
+  <data name="Icon.MinimumWidth" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="sharedFilesPictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;sharedFilesPictureBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="searchButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 23</value>
+  </data>
+  <data name="&gt;&gt;searchGroupBox.Name" xml:space="preserve">
+    <value>searchGroupBox</value>
+  </data>
+  <data name="&gt;&gt;maxSearchCountLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sharedFilesPictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 72</value>
+  </data>
+  <data name="&gt;&gt;searchButton.Parent" xml:space="preserve">
+    <value>searchGroupBox</value>
+  </data>
+  <data name="&gt;&gt;copyLinkToolStripMenuItem.Name" xml:space="preserve">
+    <value>copyLinkToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;openFileToolStripMenuItem.Name" xml:space="preserve">
+    <value>openFileToolStripMenuItem</value>
+  </data>
+  <data name="searchTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>569, 20</value>
+  </data>
+  <data name="&gt;&gt;RatingIcon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;updateTimer.Name" xml:space="preserve">
+    <value>updateTimer</value>
+  </data>
+  <data name="sharedFilesLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 13</value>
+  </data>
+  <data name="sharedFilesDataGridView.Size" type="System.Drawing.Size, System.Drawing">
+    <value>794, 503</value>
+  </data>
+  <data name="&gt;&gt;FileName.Name" xml:space="preserve">
+    <value>FileName</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>800, 600</value>
+  </data>
+  <data name="&gt;&gt;FileSize.Name" xml:space="preserve">
+    <value>FileSize</value>
+  </data>
+  <data name="copyLinkToClipboardMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>190, 22</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;updateTimer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="openDirectoryToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="searchGroupBox.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="maxSearchCountLabel.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="FileName.HeaderText" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+  <data name="&gt;&gt;sharedFilesPictureBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;copyLinkHTMLToolStripMenuItem.Name" xml:space="preserve">
+    <value>copyLinkHTMLToolStripMenuItem</value>
+  </data>
+  <data name="openFileToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK7wAA
+        Cu8BfXaKSAAAAhxJREFUOE+t0l1Ik2EUB/Czkj4G7d2HBBG7MVJM07UNrUZZGFEJZjW00OHMbH5sY3PT
+        ajlzlWuZiWxCNIiii7wpkEyXU4ylOLVpQ4dNIbpJSroaTXZT/nvZ7UQW9Vyf8zt/znOI/turJH3GrfQI
+        1VCANKT4a5cx8lfmvs2g9+NTSO7v/80ibmomYdJQqik18ir0Al1jd9Ex3oLql0pwG7d9p+tUkRQiaBRE
+        ns32oHXEAOPbSjR4lNB4i5DjEq+RmYbpDu3dEBKa+D97ptvR5L2M2sESVPQfw4XXB3BucB+K32RA1M6N
+        sWla6TZtXRfiX2Oinf4b0HvLUOU5gdIBGYoH0qH0ZqLcl42aaRlO9u0BWekTy0gTEIGFF3VMGlA/fBaq
+        IQXOD2Xi4mgWVGM5qJ6SQDMjhW4+H01hBVLaNi0kAlYmap/Som70DFQjebj0LgtV/lxcDchQH8yDPnQY
+        5sUCWL8UgmPbHEoAhG1M9F6gDg2+01D75FBPSFA7K4d27iDM4QLYvp6C8n0uOA7OAnWQJAEQ2ZnVB0Et
+        DBNFuOLPj0/WzR+C5XMhTEvHsfsJb5UcdJO9ji3rLlHkYGLdISOaP5RAFzgan9zCxj3iSVujh+Sh55S2
+        4Tfu7BLE3GELbMFy2BbZRU5Ksd2ZskyPqTSpQ9rRyV3pX3bCtaRFdq/4F3WTkx4RL6nmeJGd1GL3rh9s
+        3HFykTz5xn+s/APCPvcuDotPNAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="Icon.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;showInformationToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="openFileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open File</value>
+  </data>
+  <data name="&gt;&gt;sharedFilesDataGridView.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Icon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewImageColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="columnComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 21</value>
+  </data>
+  <data name="searchButton.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lastRequest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sharedFilesPictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="columnComboBox.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="RatingIcon.Width" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;columnComboBox.Parent" xml:space="preserve">
+    <value>searchGroupBox</value>
+  </data>
+  <data name="&gt;&gt;openDirectoryToolStripMenuItem.Name" xml:space="preserve">
+    <value>openDirectoryToolStripMenuItem</value>
+  </data>
+  <data name="openFileToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tahoma, 8.25pt, style=Bold</value>
+  </data>
+  <data name="openDirectoryToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open Directory</value>
+  </data>
+  <data name="Icon.Width" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;sharedFilesLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;copyLinkToClipboardMenuItem.Name" xml:space="preserve">
+    <value>copyLinkToClipboardMenuItem</value>
+  </data>
+  <data name="sharedFilesDataGridView.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;sharedFilesDataGridView.Name" xml:space="preserve">
+    <value>sharedFilesDataGridView</value>
+  </data>
+  <data name="&gt;&gt;searchTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="openDirectoryToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAK+wAA
+        CvsBy58dkAAAAitJREFUOE+9kl1okmEUx0+toItBXXTRTdDtLhZFu9ouCqIualddjC76IGoE1WqzQpIy
+        Zmnl+rBlEH2wj1wLZ6RR6laJZdjSjS23G7eZ5dwkSV+tqZu++e8oFG+BjSD2wJ/3eTnn93/O4RyihToD
+        rdTXqyHYzhOeqQjdMrr3T287WiidTcfw81iUhL8a+Nuppv86Kd06sr7S0oBTt1L8RfOlpIHnBvkHu9Zj
+        xLwNocFzSAvDEMVpRpKswvcD6xseny5RgfMKccJX5DL9SEZ6MD3ajODbwwi66zH+ei/HRlgRmE5JDFzX
+        Fudc+hX5wBslXmoJqZgL0XEFhEk1ZhOtQPYuMKtHxFePuRkjG4zBKJcYOFoWJbIpT7HM5xcLFUywOoAc
+        g3N6IHMZSKuBlBJB726OvUf3CYnBC+0ST3SihwNTKIyqkIDvV/nlSwyqgBkFt30cSBzB5LtajhvRJZMY
+        9F2g294Hm7NAoDhniE6G5FxQIyAcAr7sB6K7gM87kQ/XITZ2AJ3HJAZ2NdX1qspiuZQVT5vZIGNmaE8R
+        QGQHEN4OhLYAH1mhrUgMbUR7wx9TsGuWmd1tNXhylg2SbcVEfNrEUDWriv83ID5ciYBlDayacnQcpfBv
+        i8TgQbt2lWg+wwaCjqF1DFUg7l0Nn2E5bOqleZOc4g+byFZyAx0314qPFISMvxa+++XcTploOklTRhlZ
+        nCqqmHf3vbeq9nFvgqGJgoZGujMv8D8SfgCE5qyhcM+pqgAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="&gt;&gt;searchTextBox.Name" xml:space="preserve">
+    <value>searchTextBox</value>
+  </data>
+  <data name="&gt;&gt;searchTextBox.Parent" xml:space="preserve">
+    <value>searchGroupBox</value>
+  </data>
+  <data name="sharedFilesLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;createCollectionToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Artist.Name" xml:space="preserve">
+    <value>Artist</value>
+  </data>
+  <data name="&gt;&gt;showInformationToolStripMenuItem.Name" xml:space="preserve">
+    <value>showInformationToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;searchGroupBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="FileSize.HeaderText" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="columnComboBox.Items3" xml:space="preserve">
+    <value>Artist</value>
+  </data>
+  <data name="&gt;&gt;Album.Name" xml:space="preserve">
+    <value>Album</value>
+  </data>
+  <data name="columnComboBox.Items1" xml:space="preserve">
+    <value>Directory</value>
+  </data>
+  <data name="showInformationToolStripMenuItem.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;columnComboBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="searchTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="createCollectionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Create Collection</value>
+  </data>
+  <data name="&gt;&gt;lastRequest.Name" xml:space="preserve">
+    <value>lastRequest</value>
+  </data>
+  <data name="searchGroupBox.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;columnComboBox.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;openDirectoryToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="searchTextBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;Title.Name" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="searchGroupBox.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="&gt;&gt;Directory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Directory.HeaderText" xml:space="preserve">
+    <value>Directory</value>
+  </data>
+  <data name="RatingIcon.HeaderText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="sharedFilesPictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 16</value>
+  </data>
+  <data name="sharedFilesLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 74</value>
+  </data>
+  <data name="&gt;&gt;RatingIcon.Name" xml:space="preserve">
+    <value>RatingIcon</value>
+  </data>
+  <data name="sharedFilesLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <metadata name="lastRequest.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="sharedFilesContextMenuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>131, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="updateTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>327, 17</value>
+  </metadata>
+  <metadata name="Directory.UserAddedColumn" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+</root>
